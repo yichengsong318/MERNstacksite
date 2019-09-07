@@ -28,7 +28,7 @@ export default class Landing extends Component {
             <div
               className="headerLogo"
               style={{
-                fontSize: 40,
+                fontSize: 35,
                 marginTop: 150,
                 textAlign: "center"
               }}
@@ -41,16 +41,16 @@ export default class Landing extends Component {
           </Fade>
         </div>
         <div
-          className="row"
           style={{
+            display: "flex",
             alignItems: "center",
-            justifyContent: "center"
+            justifyContent: "space-around",
+            margin: 0
           }}
         >
-          <span style={{ color: "white", fontWeight: "bold", fontSize: 20 }}>
+          <span style={{ color: "white", fontWeight: "bold", fontSize: 15 }}>
             Call or email for a free estimate
           </span>
-          <span style={{ padding: 10 }}></span>
           <Button variant="primary" onPress={this.handleClick}>
             Free Estimate
           </Button>{" "}

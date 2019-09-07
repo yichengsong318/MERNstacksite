@@ -31,11 +31,8 @@ export default class Header extends Component {
             }}
           >
             <span style={{ color: "white", fontWeight: "bold" }}>
-              <span></span>
-              Nature's<span style={{ padding: 5 }}></span>
-              <Badge variant="primary">Frontier</Badge>
-              <span style={{ padding: 5 }}></span>
-              Landscaping
+              Nature's <span></span>
+              <Badge variant="primary">Frontier</Badge> Landscaping
             </span>
           </div>
         </div>
