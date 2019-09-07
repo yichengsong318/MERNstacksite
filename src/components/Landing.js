@@ -9,7 +9,7 @@ export default class Landing extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="backgroundImage">
         <div
           style={{
             justifyContent: "center",
@@ -29,18 +29,13 @@ export default class Landing extends Component {
                 marginTop: 150,
                 textAlign: "center",
                 color: "",
-                fontWeight: "bold",
 
                 padding: 5
               }}
             >
               {" "}
-              <h1 style={{ color: "white" }}>
-                <span></span>
-                Nature's<span style={{ padding: 5 }}></span>
-                <Badge variant="primary">Frontier</Badge>
-                <span style={{ padding: 5 }}></span>
-                Landscaping
+              <h1 style={{ color: "white", fontWeight: "bold" }}>
+                LANDSCAPING SERVICES & Property Management
               </h1>
             </div>
           </Fade>

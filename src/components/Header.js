@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Nav, Navbar } from "react-bootstrap";
+import { Badge } from "react-bootstrap";
 
 export default class Header extends Component {
   constructor(props) {
@@ -14,6 +15,25 @@ export default class Header extends Component {
           <Navbar.Brand href="/" style={{ fontWeight: "bold", color: "white" }}>
             Home <i className="fas fa-leaf" style={{ color: "#46CB18" }}></i>
           </Navbar.Brand>
+
+          <div
+            className="headerLogo"
+            style={{
+              textAlign: "center",
+              color: "",
+
+              padding: 5
+            }}
+          >
+            {" "}
+            <span style={{ color: "white", fontWeight: "bold" }}>
+              <span></span>
+              Nature's<span style={{ padding: 5 }}></span>
+              <Badge variant="primary">Frontier</Badge>
+              <span style={{ padding: 5 }}></span>
+              Landscaping
+            </span>
+          </div>
 
           <Nav className="ml-auto">
             <Nav.Link
