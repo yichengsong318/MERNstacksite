@@ -6,15 +6,20 @@ import Landing from "./components/Landing";
 class App extends Component {
   render() {
     return (
-      <div className="App" style={{}}>
+      <div
+        className="App"
+        style={{
+          flex: 1,
+          width: "100%",
+          height: "100%"
+        }}
+      >
         <div className="App-header">
           <Header />
           <div
-            className="m-auto"
             style={{
               justifyContent: "center",
-              display: "flex",
-              alignItems: "center"
+              display: "flex"
             }}
           >
             <Landing />

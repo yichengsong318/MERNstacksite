@@ -7,15 +7,13 @@ export default class Landing extends Component {
         <div
           style={{
             display: "flex",
-            alignItems: "center",
-            justifyContent: "center"
+            alignItems: "center"
           }}
         >
           <span
             style={{
               fontSize: 40,
               marginTop: 80,
-              justifyContent: "center",
               textAlign: "center"
             }}
           >
