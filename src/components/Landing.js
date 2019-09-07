@@ -11,7 +11,16 @@ export default class Landing extends Component {
             justifyContent: "center"
           }}
         >
-          <span style={{}}>Nature's Frontier Landscaping</span>
+          <span
+            style={{
+              fontSize: 40,
+              marginTop: 80,
+              justifyContent: "center",
+              textAlign: "center"
+            }}
+          >
+            Nature's Frontier Landscaping
+          </span>
         </div>
       </div>
     );
