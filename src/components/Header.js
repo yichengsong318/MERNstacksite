@@ -14,18 +14,16 @@ export default class Header extends Component {
           style={{ justifyContent: "right", backgroundColor: "transparent" }}
         >
           <Navbar.Brand href="/" style={{ color: "black" }}>
-            Home{" "}
-            <i
-              className="fas fa-dice-d20"
-              style={{ fontSize: 20, color: "black", marginTop: 4 }}
-            ></i>
+            Home <i className="fas fa-leaf"></i>
           </Navbar.Brand>
+
           <Nav className="ml-auto">
             <Nav.Link href="/work" style={{ color: "black" }}>
-              Projects
+              Services
             </Nav.Link>
+
             <Nav.Link href="/about" style={{ color: "black" }}>
-              About
+              About Us
             </Nav.Link>
             <Nav.Link href="/contact" style={{ color: "black" }}>
               Contact
