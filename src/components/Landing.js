@@ -13,7 +13,9 @@ export default class Landing extends Component {
           style={{
             justifyContent: "center",
             display: "flex",
-            paddingBottom: 1000
+            padding: 0,
+            margin: 0,
+            width: "100%"
           }}
         >
           <LightSpeed>
@@ -23,13 +25,16 @@ export default class Landing extends Component {
                 marginTop: 150,
                 textAlign: "center",
                 color: "white",
-                fontWeight: "bold"
+                fontWeight: "bold",
+
+                padding: 5
               }}
             >
               Nature's Frontier Landscaping
             </span>
           </LightSpeed>
         </div>
+        <div style={{ paddingTop: 200 }}></div>
       </div>
     );
   }
