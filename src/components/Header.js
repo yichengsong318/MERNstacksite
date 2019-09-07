@@ -13,22 +13,22 @@ export default class Header extends Component {
         <Navbar
           style={{ justifyContent: "right", backgroundColor: "transparent" }}
         >
-          <Navbar.Brand href="/" style={{ color: "black" }}>
+          <Navbar.Brand href="/" style={{ color: "white" }}>
             Home <i className="fas fa-leaf"></i>
           </Navbar.Brand>
 
           <Nav className="ml-auto">
-            <Nav.Link href="/work" style={{ color: "black" }}>
+            <Nav.Link href="/work" style={{ color: "white" }}>
               Services
             </Nav.Link>
-            <Nav.Link href="/work" style={{ color: "black" }}>
+            <Nav.Link href="/work" style={{ color: "white" }}>
               Gallery
             </Nav.Link>
 
-            <Nav.Link href="/about" style={{ color: "black" }}>
+            <Nav.Link href="/about" style={{ color: "white" }}>
               About
             </Nav.Link>
-            <Nav.Link href="/contact" style={{ color: "black" }}>
+            <Nav.Link href="/contact" style={{ color: "white" }}>
               Contact
             </Nav.Link>
           </Nav>

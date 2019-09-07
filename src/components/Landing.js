@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 
 export default class Landing extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
   render() {
     return (
       <div>
@@ -14,7 +18,8 @@ export default class Landing extends Component {
             style={{
               fontSize: 40,
               marginTop: 80,
-              textAlign: "center"
+              textAlign: "center",
+              color: "white"
             }}
           >
             Nature's Frontier Landscaping

@@ -7,23 +7,22 @@ class App extends Component {
   render() {
     return (
       <div
-        className="App"
+        className="backgroundImage"
         style={{
           flex: 1,
           width: "100%",
           height: "100%"
         }}
       >
-        <div className="App-header">
-          <Header />
-          <div
-            style={{
-              justifyContent: "center",
-              display: "flex"
-            }}
-          >
-            <Landing />
-          </div>
+        <Header />
+        <div
+          style={{
+            justifyContent: "center",
+            display: "flex",
+            paddingBottom: 700
+          }}
+        >
+          <Landing />
         </div>
       </div>
     );
