@@ -17,9 +17,10 @@ export default class Landing extends Component {
           <span
             style={{
               fontSize: 40,
-              marginTop: 80,
+              marginTop: 60,
               textAlign: "center",
-              color: "white"
+              color: "white",
+              fontWeight: "bold"
             }}
           >
             Nature's Frontier Landscaping

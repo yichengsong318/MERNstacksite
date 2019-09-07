@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Nav, Navbar } from "react-bootstrap";
+import "../App.css";
 
 export default class Header extends Component {
   constructor(props) {
@@ -13,22 +14,34 @@ export default class Header extends Component {
         <Navbar
           style={{ justifyContent: "right", backgroundColor: "transparent" }}
         >
-          <Navbar.Brand href="/" style={{ color: "white" }}>
-            Home <i className="fas fa-leaf"></i>
+          <Navbar.Brand href="/" style={{ fontWeight: "bold", color: "white" }}>
+            Home <i className="fas fa-leaf" style={{ color: "#46CB18" }}></i>
           </Navbar.Brand>
 
           <Nav className="ml-auto">
-            <Nav.Link href="/work" style={{ color: "white" }}>
+            <Nav.Link
+              href="/work"
+              style={{ color: "white", fontWeight: "bold" }}
+            >
               Services
             </Nav.Link>
-            <Nav.Link href="/work" style={{ color: "white" }}>
+            <Nav.Link
+              href="/work"
+              style={{ color: "white", fontWeight: "bold" }}
+            >
               Gallery
             </Nav.Link>
 
-            <Nav.Link href="/about" style={{ color: "white" }}>
+            <Nav.Link
+              style={{ color: "white", fontWeight: "bold" }}
+              href="/about"
+            >
               About
             </Nav.Link>
-            <Nav.Link href="/contact" style={{ color: "white" }}>
+            <Nav.Link
+              href="/contact"
+              style={{ color: "black", fontWeight: "bold" }}
+            >
               Contact
             </Nav.Link>
           </Nav>
