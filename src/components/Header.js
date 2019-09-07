@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import "../App.css";
 
 export default class Header extends Component {
   constructor(props) {
@@ -40,7 +39,7 @@ export default class Header extends Component {
             </Nav.Link>
             <Nav.Link
               href="/contact"
-              style={{ color: "black", fontWeight: "bold" }}
+              style={{ color: "white", fontWeight: "bold" }}
             >
               Contact
             </Nav.Link>
