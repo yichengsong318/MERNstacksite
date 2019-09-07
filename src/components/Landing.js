@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
-import { Button } from "react-bootstrap";
+import { Button, Badge } from "react-bootstrap";
 
 export default class Landing extends Component {
   constructor(props) {
@@ -37,23 +37,36 @@ export default class Landing extends Component {
               <h1 style={{ color: "white", fontWeight: "bold" }}>
                 LANDSCAPING SERVICES & Property Management
               </h1>
+              <Badge variant="primary">Serving all RI/Mass</Badge>
             </div>
           </Fade>
         </div>
         <div
           style={{
-            display: "flex",
             alignItems: "center",
-            justifyContent: "space-around",
-            margin: 0
+            textAlign: "center",
+            justifyContent: "center"
           }}
         >
+          <div>
+            <span
+              style={{
+                color: "white",
+                fontWeight: "bold",
+                fontSize: 15
+              }}
+            >
+              <i class="fas fa-phone-square"></i> 401-447-5446
+            </span>
+          </div>
           <span style={{ color: "white", fontWeight: "bold", fontSize: 15 }}>
-            Call or email for a free estimate
+            <i class="fas fa-envelope"></i> Naturesfrontierlandscaping@gmail.com
           </span>
-          <Button variant="primary" onPress={this.handleClick}>
-            Free Estimate
-          </Button>{" "}
+          <div>
+            <Button variant="primary" onPress={this.handleClick}>
+              Free Estimate
+            </Button>
+          </div>
         </div>
         <div style={{ paddingTop: 250 }}></div>
       </div>

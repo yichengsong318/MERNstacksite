@@ -11,7 +11,11 @@ export default class Header extends Component {
   render() {
     return (
       <Navbar
-        style={{ justifyContent: "space-between", backgroundColor: "#2f2fa2" }}
+        style={{
+          justifyContent: "space-between",
+          backgroundColor: "#2f2fa2",
+          width: "100%"
+        }}
       >
         <Navbar.Brand href="/" style={{ fontWeight: "bold", color: "white" }}>
           Home <i className="fas fa-leaf" style={{ color: "#46CB18" }}></i>
@@ -20,8 +24,7 @@ export default class Header extends Component {
         <div
           className="headerLogo"
           style={{
-            textAlign: "center",
-            color: ""
+            textAlign: "center"
           }}
         >
           {" "}
@@ -39,23 +42,59 @@ export default class Header extends Component {
 
         <Nav>
           <Nav.Link href="/work" style={{ color: "white", fontWeight: "bold" }}>
-            Services
+            <div
+              style={{
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center"
+              }}
+            >
+              Services <i className="fas fa-toolbox"></i>
+            </div>
           </Nav.Link>
           <Nav.Link href="/work" style={{ color: "white", fontWeight: "bold" }}>
-            Gallery
+            <div
+              style={{
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center"
+              }}
+            >
+              Gallery <i className="fas fa-image"></i>
+            </div>
           </Nav.Link>
 
           <Nav.Link
             style={{ color: "white", fontWeight: "bold" }}
             href="/about"
           >
-            About
+            <div
+              style={{
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center"
+              }}
+            >
+              About <i className="fas fa-book-reader"></i>
+            </div>
           </Nav.Link>
           <Nav.Link
             href="/contact"
-            style={{ color: "white", fontWeight: "bold" }}
+            style={{
+              color: "white",
+              fontWeight: "bold",
+              justifyContent: "center"
+            }}
           >
-            Contact
+            <div
+              style={{
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center"
+              }}
+            >
+              Contact <i className="far fa-envelope"></i>
+            </div>
           </Nav.Link>
         </Nav>
       </Navbar>
