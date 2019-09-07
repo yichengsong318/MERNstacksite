@@ -8,15 +8,7 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <div
-          style={{
-            justifyContent: "center",
-            display: "flex",
-            paddingBottom: 1000
-          }}
-        >
-          <Landing />
-        </div>
+        <Landing />
       </div>
     );
   }

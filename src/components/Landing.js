@@ -8,18 +8,19 @@ export default class Landing extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="backgroundImage">
         <div
           style={{
+            justifyContent: "center",
             display: "flex",
-            alignItems: "center"
+            paddingBottom: 1000
           }}
         >
           <LightSpeed>
             <span
               style={{
                 fontSize: 40,
-                marginTop: 60,
+                marginTop: 150,
                 textAlign: "center",
                 color: "white",
                 fontWeight: "bold"

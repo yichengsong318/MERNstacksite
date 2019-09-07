@@ -4,8 +4,12 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: url("./assets/background.jpg") no-repeat center center;
-  background-image: url("./assets/background.jpg");
+}
+.backgroundImage {
+  background: url("./assets/background.jpg");
   background-size: cover;
-  padding-bottom: 50;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
 }

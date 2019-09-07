@@ -10,9 +10,7 @@ export default class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar
-          style={{ justifyContent: "right", backgroundColor: "transparent" }}
-        >
+        <Navbar style={{ justifyContent: "right", backgroundColor: "#2f2fa2" }}>
           <Navbar.Brand href="/" style={{ fontWeight: "bold", color: "white" }}>
             Home <i className="fas fa-leaf" style={{ color: "#46CB18" }}></i>
           </Navbar.Brand>
