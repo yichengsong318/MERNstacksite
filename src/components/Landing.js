@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
-import { Badge } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 export default class Landing extends Component {
   constructor(props) {
     super(props);
     this.state = {};
+  }
+  handleClick(e) {
+    alert("hi");
   }
   render() {
     return (
@@ -27,10 +30,7 @@ export default class Landing extends Component {
               style={{
                 fontSize: 40,
                 marginTop: 150,
-                textAlign: "center",
-                color: "",
-
-                padding: 5
+                textAlign: "center"
               }}
             >
               {" "}
@@ -39,6 +39,21 @@ export default class Landing extends Component {
               </h1>
             </div>
           </Fade>
+        </div>
+        <div
+          className="row"
+          style={{
+            alignItems: "center",
+            justifyContent: "center"
+          }}
+        >
+          <span style={{ color: "white", fontWeight: "bold", fontSize: 20 }}>
+            Call or email for a free estimate
+          </span>
+          <span style={{ padding: 10 }}></span>
+          <Button variant="primary" onPress={this.handleClick}>
+            Free Estimate
+          </Button>{" "}
         </div>
         <div style={{ paddingTop: 250 }}></div>
       </div>
