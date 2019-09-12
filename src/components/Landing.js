@@ -35,7 +35,7 @@ export default class Landing extends Component {
             >
               {" "}
               <h1 style={{ color: "white", fontWeight: "bold" }}>
-                LANDSCAPING SERVICES & Property Management
+                Landscaping Services & Property Management
               </h1>
               <Badge variant="primary">Serving all RI/Mass</Badge>
             </div>
