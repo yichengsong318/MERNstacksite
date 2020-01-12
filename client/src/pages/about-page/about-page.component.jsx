@@ -24,7 +24,8 @@ const AboutPage = () => (
         alignItems: "center",
         padding: 30,
         color: "black",
-        fontSize: 20
+        fontSize: 20,
+        textAlign: "center"
       }}
     >
       <Fade left>
@@ -38,11 +39,13 @@ const AboutPage = () => (
       </Fade>
 
       <Fade top cascade>
-        <p>At Nature's Frontier Landscaping, our goal is to cater to all of our customers
+        <div style={{ display: "flex" }}>
+          <p className="about-text">At Nature's Frontier Landscaping, our goal is to cater to all of our customers
         household needs.</p>
-
-        <p>Everything from landscaping to moving a couch. We want to make YOU the customer's life simpler and effortless.</p>
-        <p>We do residential, commerical, and state work.</p>
+        </div>
+        <div style={{ display: "flex" }}>
+          <p className="about-text">Everything from landscaping to moving a couch. We want to make YOU the customer's life simpler and effortless.</p>
+        </div>  <div style={{ display: "flex" }}><p className="about-text">We do residential, commercial, and state work.</p></div>
       </Fade>
       <LightSpeed top cascade>
         <p>- Founder</p>
