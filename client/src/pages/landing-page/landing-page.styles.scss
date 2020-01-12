@@ -1,7 +1,8 @@
 .backgroundImage {
-  background: url("../../assets//background.png");
+  background: url("../../assets/background.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   filter: brightness(80%);
 }
 
