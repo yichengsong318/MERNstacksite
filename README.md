@@ -1,6 +1,6 @@
 # Nature's Frontier Landscaping Website
 
-Will be ready in a few days and replace: www.nfllandscaping.com
+Will replace: www.nfllandscaping.com
 
 
 ## Installation
