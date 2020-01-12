@@ -32,7 +32,9 @@ const AboutPage = () => (
       </Fade>
 
       <Fade right>
-        <img src={hero} className="logo" alt="Founder at work" />
+        <div width="100vw">
+          <img src={hero} className="logo" alt="Founder at work" />
+        </div>
       </Fade>
 
       <Fade top cascade>

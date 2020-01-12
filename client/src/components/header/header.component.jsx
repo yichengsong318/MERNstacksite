@@ -10,7 +10,7 @@ export default class Header extends Component {
       <div style={{}}>
 
         <Navbar collapseOnSelect expand="lg" >
-          <Navbar.Brand href="/home"><img src={logo} style={{ height: "9vh" }} /></Navbar.Brand>
+          <Navbar.Brand href="/home"><i class="fas fa-home"></i> Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
