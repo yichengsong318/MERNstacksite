@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import "./header.styles.scss"
+import logo from "../../assets/logo.png"
 
 export default class Header extends Component {
   render() {
@@ -15,15 +16,17 @@ export default class Header extends Component {
           style={{ justifyContent: "right", backgroundColor: "transparent" }}
         >
           <Navbar.Brand href="/" style={{ color: "#A9A9A9" }}>
-            Home{" "}
-            <i
-              className="fas fa-compact-disc fa-spin"
-              style={{
-                fontSize: 20,
-                color: "black"
+            <div className="logo mr-auto ml-auto">
+              <div
+                className="logo-image"
+                style={{
+                  backgroundImage: `url(
+            ${logo}
+          )`,
+                  backgroundRepeat: "no-repeat"
+                }}
+              /></div>
 
-              }}
-            ></i>
           </Navbar.Brand>
 
           <Nav className="ml-auto">
