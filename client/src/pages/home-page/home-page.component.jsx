@@ -10,6 +10,7 @@ import LazyLoad from "react-lazyload";
 
 const HomePage = () => (
   <div style={{ justifyContent: "center", alignItems: "center" }}>
+    <div className="backgroundImage" style={{ width: "100%", height: "90vh" }}></div>
 
 
     <div style={{ marginTop: 30 }}>

@@ -14,10 +14,10 @@ import PrivateRoute from "./components/common/private-route/private-route-compon
 function App() {
   return (
     <div className="App" style={{ flex: 1, backgroundColor: "white" }}>
-      <Header />
 
+      <Route exact path="/" component={HomePage} />
       <Switch>
-        <Route exact path="/" component={HomePage} />
+        <Header />
         <Route exact path="/login" component={LoginPage} />
         {/* <Route exact path="/register" component={RegisterPage} /> */}
         <Route exact path="/about" component={AboutPage} />
