@@ -8,21 +8,12 @@ import RubberBand from "react-reveal/RubberBand";
 import Signature from "../../components/common/signature/Signature.component";
 import LightSpeed from 'react-reveal/LightSpeed';
 import ContactEmail from "../../components/common/contact-email/contact-email.component"
+import hero from "../../assets/hero.jpg"
 
 
 const AboutPage = () => (
   <div style={{ justifyContent: "center", alignItems: "center" }}>
-    {/* <div className="logo mr-auto ml-auto"> */}
-    {/* <div
-        className="logo-image"
-        style={{
-          backgroundImage: `url(
-            ${logo}
-          )`,
-          backgroundRepeat: "no-repeat"
-        }}
-      />
-    </div> */}
+
     <p style={{ color: "black", fontWeight: "bold", fontSize: 30 }}>About Us</p>
 
     <div
@@ -36,83 +27,24 @@ const AboutPage = () => (
         fontSize: 20
       }}
     >
-      <Pulse>
-        {" "}
-        <i style={{ fontSize: 70, color: "#F8D101" }} class="fas fa-drum"></i>
-      </Pulse>
       <Fade left>
-        <div style={{ marginTop: 30 }}>
-          <p style={{ fontSize: 27 }}>
-            <span style={{ fontWeight: "bold" }}>On A Beat</span> is a
-            performance company...{" "}
-          </p>
-        </div>{" "}
+        <span>"We don't cut corners, just wood."</span>
       </Fade>
 
-      <div style={{ marginTop: 60 }}>
-        {" "}
-        <Fade top cascade>
-          <p style={{}}>We create shows for all ...</p>
-        </Fade>
-        <LightSpeed left cascade>
-          <p style={{ fontWeight: "bold", fontSize: 30 }}>Occasions</p>
-          <div>
-            <Fade right>
-              <div><span>parties,</span><span> dinners,</span><span> dances,</span><span> religious services,</span> <span> corporate functions,</span><span> &c</span></div></Fade>
-          </div>
+      <Fade right>
+        <img src={hero} className="logo" alt="Founder at work" />
+      </Fade>
 
-          <span>+</span> <p style={{ fontWeight: "bold", fontSize: 30 }}>Locations</p>
-          <div>
-            <Fade left>
-              <div>
-                <span>clubs,</span><span>  bars,</span> <span>weddings,</span><span> galleries,</span> <span>churches,</span><span>  corners </span>
-              </div>
-            </Fade>
-          </div>
-        </LightSpeed >
-
-
-      </div>
-
-      <RubberBand>
-        <div>
-          <i style={{ fontSize: 60, margin: 20 }} class="fas fa-guitar"></i>
-        </div>{" "}
-      </RubberBand>
       <Fade top cascade>
-        <div style={{ marginTop: 20 }}>
-          <p>
-            Our ultimate goal is to create pan American symphonies, musicals,
-            and operas of unprecedented scale and quality. As the goal
-            presupposes a deep familiarity with music, musicians, and music
-            lovers, we will play almost anything almost any where.{" "}
-          </p>
-        </div>
+        <p>At Nature's Frontier Landscaping, our goal is to cater to all of our customers
+        household needs.</p>
 
-        <div style={{ marginTop: 20 }}>
-          <p>
-            Both more and less than a band: we feature a revolving group of
-            artists, and can be as big or small or the situation requires. Check
-            our artist’s page for past and current collaborators.
-          </p>
-        </div>
+        <p>Everything from landscaping to moving a couch. We want to make YOU the customer's life simpler and effortless.</p>
+        <p>We do residential, commerical, and state work.</p>
       </Fade>
-
-      <i
-        style={{ fontSize: 60, margin: 20 }}
-        class="fas fa-globe-americas fa-pulse"
-      ></i>
-
-      <ContactEmail />
-
-      <div style={{ marginTop: 40 }}>
-        <Zoom left>
-          <span style={{ fontWeight: "bold", fontSize: 40 }}>
-            More content coming soon
-          </span>
-        </Zoom>
-      </div>
-
+      <LightSpeed top cascade>
+        <p>- Founder</p>
+      </LightSpeed>
       <div>
         <Signature />
       </div>

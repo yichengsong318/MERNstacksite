@@ -6,6 +6,7 @@ import LoginPage from "./pages/login-page/login-page.component";
 import AboutPage from "./pages/about-page/about-page.component";
 // import RegisterPage from "./pages/register-page/register-page.component";
 import DashboardPage from "./pages/dashboard-page/dashboard-page.component";
+import HomePage from "./pages/home-page/home-page.component"
 
 import Header from "./components/header/header.component";
 
@@ -14,10 +15,11 @@ import PrivateRoute from "./components/common/private-route/private-route-compon
 function App() {
   return (
     <div className="App" style={{ flex: 1, backgroundColor: "white" }}>
+      <Header />
 
-      <Route exact path="/" component={LandingPage} />
       <Switch>
-        <Header />
+        <Route exact path="/" component={LandingPage} />
+        <Route exact path="/home" component={HomePage} />
         <Route exact path="/login" component={LoginPage} />
         {/* <Route exact path="/register" component={RegisterPage} /> */}
         <Route exact path="/about" component={AboutPage} />

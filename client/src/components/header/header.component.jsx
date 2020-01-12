@@ -21,7 +21,7 @@ export default class Header extends Component {
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#features">About</Nav.Link>
+              <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="#pricing">Gallery</Nav.Link>
             </Nav>
             <Nav>
