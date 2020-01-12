@@ -23,7 +23,8 @@ export default class Header extends Component {
                   backgroundImage: `url(
             ${logo}
           )`,
-                  backgroundRepeat: "no-repeat"
+                  backgroundRepeat: "no-repeat",
+
                 }}
               /></div>
 

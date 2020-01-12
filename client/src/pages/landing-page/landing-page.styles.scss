@@ -5,6 +5,15 @@
   background-position: center;
   filter: brightness(80%);
 }
+.logo{
+  background: url("../../assets/logo1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20vh;
+  margin-top: 12vh;
+
+}
 
 .container{
   display: flex;
@@ -25,19 +34,10 @@
 .quoteSign{
   color: #3895D3;
   font-size: 20px;
-  margin-top: 7vh;
+  margin-top: 3vh;
   margin-bottom: 7vh;
   font-weight: bold;
 
-}
-.companyName{
-    color:white;
-    font-size: 24px;
-    margin-top: 9vh;
-    font-weight: bold;
-}
-.frontier{
-  color: #3895D3;
 }
 
 .landingButton{
@@ -47,10 +47,10 @@
 
 @media screen and (min-width: 900px) {
   .landingButton{
-    margin-top: 15vh;
+    margin-top: 11vh;
   }
   .quote{
-    margin-top: 20vh
+    margin-top: 11vh
   }
 
 }
