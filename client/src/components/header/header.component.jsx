@@ -4,6 +4,11 @@ import "./header.styles.scss"
 
 export default class Header extends Component {
   render() {
+
+
+    if (window.location.pathname === '/') return null;
+
+
     return (
       <div style={{}}>
         <Navbar
