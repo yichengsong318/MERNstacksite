@@ -1,7 +1,7 @@
 {
-  "name": "onabeat.com",
+  "name": "nflandscaping.com",
   "version": "1.0.0",
-  "description": "Site written in React for onabeat.com",
+  "description": "Site written in React for nflandscaping.com",
   "main": "index.js",
   "engines": {
     "node": "10.16.1"
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChristianGracia/onabeat.com.git"
+    "url": "git+https://github.com/ChristianGracia/nflandscaping.com.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChristianGracia/onabeat.com/issues"
+    "url": "https://github.com/ChristianGracia/nflandscaping.com/issues"
   },
-  "homepage": "https://github.com/ChristianGracia/onabeat.com#readme",
+  "homepage": "https://github.com/ChristianGracia/nflandscaping.com#readme",
   "dependencies": {
     "concurrently": "^5.0.1",
     "mongodb": "^3.4.0",
