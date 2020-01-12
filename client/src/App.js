@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import "./App.scss";
-import HomePage from "./pages/home-page/home-page.component";
+import LandingPage from "./pages/landing-page/landing-page.component";
 import LoginPage from "./pages/login-page/login-page.component";
 import AboutPage from "./pages/about-page/about-page.component";
 // import RegisterPage from "./pages/register-page/register-page.component";
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App" style={{ flex: 1, backgroundColor: "white" }}>
 
-      <Route exact path="/" component={HomePage} />
+      <Route exact path="/" component={LandingPage} />
       <Switch>
         <Header />
         <Route exact path="/login" component={LoginPage} />
@@ -30,7 +30,6 @@ function App() {
         <PrivateRoute exact path="/dashboard" component={DashboardPage} />
       </Switch>
 
-      <div style={{ paddingBottom: 300 }}></div>
     </div>
   );
 }
