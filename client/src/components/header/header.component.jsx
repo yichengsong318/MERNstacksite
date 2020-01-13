@@ -6,9 +6,9 @@ export default class Header extends Component {
   render() {
     if (window.location.pathname === '/') return null;
     return (
-      <div style={{}}>
+      <div>
 
-        <Navbar collapseOnSelect expand="lg" className="bg-transparent" >
+        <Navbar collapseOnSelect expand="lg" className="navbar-inner" variant="dark">
           <Navbar.Brand href="/home"><i class="fas fa-home"></i> Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
