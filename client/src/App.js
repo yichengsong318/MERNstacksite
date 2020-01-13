@@ -7,6 +7,7 @@ import AboutPage from "./pages/about-page/about-page.component";
 // import RegisterPage from "./pages/register-page/register-page.component";
 import DashboardPage from "./pages/dashboard-page/dashboard-page.component";
 import HomePage from "./pages/home-page/home-page.component"
+import GalleryPage from "./pages/gallery-page/gallery-page.component"
 
 import Header from "./components/header/header.component";
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/login" component={LoginPage} />
         {/* <Route exact path="/register" component={RegisterPage} /> */}
         <Route exact path="/about" component={AboutPage} />
+        <Route exact path="/gallery" component={GalleryPage} />
       </Switch>
       {/* for local */}
       {/* <Route exact path="/dashboard" component={DashboardPage} /> */}
