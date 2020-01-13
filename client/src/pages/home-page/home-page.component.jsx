@@ -13,9 +13,9 @@ const HomePage = () => (
             <span>Monday - Friday 8:00AM - 6:00PM</span>
             <span>Serving Rhode Island and Mass</span>
         </div>
-        <div style={{ fontWeight: "bold", color: "white", fontSize: 30 }}>
+        <div style={{ fontWeight: "bold", color: "white", fontSize: 50 }}>
             <p>Site Under Construction</p>
-            <p>Will be ready in a few days</p>
+
         </div>
 
         <div className="signature">

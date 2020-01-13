@@ -1,5 +1,4 @@
 import React from "react";
-import "./gallery-page.styles.scss";
 import pic1 from "../../assets/ba1.jpg"
 import pic2 from "../../assets/ba2.jpg"
 import pic3 from "../../assets/ba3.jpg"
@@ -13,43 +12,47 @@ import Fade from "react-reveal/Fade"
 import LazyLoad from "react-lazyload"
 import Spinner from "../../components/common/spinner/spinner.component"
 
+import "./gallery-page.styles.scss"
 
 
 
 const GalleryPage = () => (
-    <div className="ba-container" >
+
+    <div>
         <Fade left>
-            <p style={{ color: "black", fontWeight: "bold", fontSize: 30, marginTop: 20 }}>Before & After</p>
+            <p className="ba-title">Before & After</p>
         </Fade>
-        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-            <img src={pic1} className="ba-pics" />
-        </LazyLoad>
-        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-            <img src={pic2} className="ba-pics" />
-        </LazyLoad>
-        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-            <img src={pic3} className="ba-pics" />
-        </LazyLoad>
-        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-            <img src={pic4} className="ba-pics" />
-        </LazyLoad>
-        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-            <img src={pic5} className="ba-pics" />
-        </LazyLoad>
-        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-            <img src={pic6} className="ba-pics" />
-        </LazyLoad>
-        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-            <img src={pic7} className="ba-pics" />
-        </LazyLoad>
-        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-            <img src={pic8} className="ba-pics" />
-        </LazyLoad>
-        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-            <img src={pic9} className="ba-pics" />
+        <div className="ba-container" >
 
-        </LazyLoad>
+            <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+                <img src={pic1} className="ba-pics" />
+            </LazyLoad>
+            <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+                <img src={pic2} className="ba-pics" />
+            </LazyLoad>
+            <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+                <img src={pic3} className="ba-pics" />
+            </LazyLoad>
+            <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+                <img src={pic4} className="ba-pics" />
+            </LazyLoad>
+            <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+                <img src={pic5} className="ba-pics" />
+            </LazyLoad>
+            <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+                <img src={pic6} className="ba-pics" />
+            </LazyLoad>
+            <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+                <img src={pic7} className="ba-pics" />
+            </LazyLoad>
+            <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+                <img src={pic8} className="ba-pics" />
+            </LazyLoad>
+            <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+                <img src={pic9} className="ba-pics" />
 
+            </LazyLoad>
+        </div>
 
     </div>
 );
