@@ -14,15 +14,23 @@
     display: flex;
     flex-direction: column;
     margin-top: 5vh;
-    color:white
+    color:white;
+    background-color: #343A40;
+    max-width: 310px;
+    margin: 0 auto;
+    margin-top: 5vh;
 }
 .home-container{
   background: url("../../assets/homeBackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 110vh;
+  height: 100vh;
   width: auto;
-  margin-top: -10vh;
 
+}
+.signature{
+    background-color: white;
+    max-width: 320px;
+    margin: 0 auto;
 }

@@ -8,7 +8,7 @@ export default class Header extends Component {
     return (
       <div>
 
-        <Navbar collapseOnSelect expand="lg" className="navbar-inner" variant="dark">
+        <Navbar collapseOnSelect expand="lg" className="navbar-inner" variant="dark" bg="dark">
           <Navbar.Brand href="/home"><i class="fas fa-home"></i> Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
