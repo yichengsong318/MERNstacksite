@@ -3,7 +3,7 @@ import "./signature.styles.scss"
 
 const Signature = () => {
   return (
-    <div style={{ color: "black", display: "flex", flexDirection: "column" }}>
+    <div className="landingSignature" >
       <span style={{ fontSize: 20, fontWeight: "bold" }}>
         Site written by{" "}
         <a href="http://www.christiangracia.com">Christian Gracia</a>
@@ -17,3 +17,4 @@ const Signature = () => {
   );
 };
 export default Signature;
+

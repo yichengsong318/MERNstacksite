@@ -2,3 +2,17 @@ a {
   color: #F8D101;
   font-weight: bold;
 }
+
+.landingSignature{
+  text-align: center;
+  margin: 0 auto;
+  color:white;
+  position: absolute; 
+  bottom: 0px;
+ display: flex; 
+ flex-direction: column; 
+ background-color: #343A40;
+ padding: 20px;
+ border: 1;
+ border-radius: 19px
+}

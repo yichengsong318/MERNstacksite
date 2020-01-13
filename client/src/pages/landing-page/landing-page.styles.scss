@@ -55,7 +55,13 @@
 
 }
 .landingSignature{
-  position: absolute;
-  float:bottom;
-
+  text-align: center;
+  margin: 0 auto;
+  color:white;
+  position: absolute; 
+  bottom: 0px;
+}
+.sign-div{
+  display: flex;
+  justify-content: center;
 }
