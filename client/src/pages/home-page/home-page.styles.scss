@@ -2,3 +2,17 @@
     max-width: 40vw;
     max-height: 15vh;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.home-container{
+  background: url("../../assets/homeBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: auto;
+
+}
