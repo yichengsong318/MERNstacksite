@@ -6,6 +6,7 @@ import logo from "../../assets/logo1.png"
 
 const HomePage = () => (
     <div className="home-container" style={{ justifyContent: "center", alignItems: "center" }}>
+
         <img src={logo} className="logo-home" />
         <div className="containerContact">
             <span><i class="fas fa-phone"></i> 401-447-5446</span>

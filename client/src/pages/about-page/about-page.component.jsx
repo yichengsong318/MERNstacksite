@@ -14,7 +14,7 @@ import hero from "../../assets/hero.jpg"
 const AboutPage = () => (
   <div style={{ justifyContent: "center", alignItems: "center" }}>
 
-    <p style={{ color: "black", fontWeight: "bold", fontSize: 30 }}>About Us</p>
+    <p style={{ color: "black", fontWeight: "bold", fontSize: 30, marginTop: 20 }}>About Us</p>
 
     <div
       style={{
@@ -29,7 +29,7 @@ const AboutPage = () => (
       }}
     >
       <Fade left>
-        <span>"We don't cut corners, just wood."</span>
+        <span style={{ marginBottom: 20 }}>"We don't cut corners, just wood."</span>
       </Fade>
 
       <Fade right>
@@ -39,7 +39,7 @@ const AboutPage = () => (
       </Fade>
 
       <Fade top cascade>
-        <div style={{ display: "flex" }}>
+        <div style={{ display: "flex", marginTop: 24 }}>
           <p className="about-text">At Nature's Frontier Landscaping, our goal is to cater to all of our customers
         household needs.</p>
         </div>

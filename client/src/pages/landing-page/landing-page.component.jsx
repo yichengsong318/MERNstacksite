@@ -18,6 +18,7 @@ const LandingPage = () => (
         <span className="quote">“We see our customers as invited guests to a party, and we are the hosts. It’s our job to make the customer experience a little bit better.”</span>
         <span className="quoteSign">-Jeff Bezos, Founder of Amazon</span>
         <div><Button className="landingButton" onClick={() => window.location.href = "/home"}>Join the Party</Button></div>
+        <span className="landingSignature">christiangracia</span>
       </div>
     </div>
   </div>
