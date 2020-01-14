@@ -1,16 +1,14 @@
 import React from "react";
 import "./home-page.styles.scss";
 // import ContentGrid from "../../components/grid/grid-component";
-import Signature from "../../components/common/signature/signature.component";
+import Signature from "../../components/common/signature/Signature.component";
 import logo from "../../assets/logo1.png"
 import { Button } from 'react-bootstrap';
 
 // import homeBackground from "../../assets/homeBackground.jpg"
-import homeBackground1 from "../../assets/homeBackground1.jpg"
-import homeBackground2 from "../../assets/homeBackground2.jpg"
+// import homeBackground1 from "../../assets/homeBackground1.jpg"
+// import homeBackground2 from "../../assets/homeBackground2.jpg"
 
-import Slider from 'react-animated-slider';
-import 'react-animated-slider/build/horizontal.css';
 
 
 const HomePage = () => (
