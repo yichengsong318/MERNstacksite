@@ -28,6 +28,7 @@ const HomePage = () => (
             <div className="button-container">
                 <Button>Contact Us</Button>   <Button>Free Estimate</Button>
             </div>
+            <p style={{ color: "white", fontWeight: "bold", fontSize: 30 }}>Coming Soon</p>
 
 
             <div className="signature">
