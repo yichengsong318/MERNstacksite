@@ -17,14 +17,14 @@ const HomePage = () => (
             <div>
                 <img src={logo} className="logo-home" />
                 <div className="containerContact">
-                    <span><i class="fas fa-phone"></i> 401-447-5446</span>
+                    {/* <span><i class="fas fa-phone"></i> 401-447-5446</span> */}
                     <span>Monday - Friday 8:00AM - 6:00PM</span>
                     <span>Serving Rhode Island and Mass</span>
                 </div>
             </div>
 
             <div className="button-container">
-                <Button>Contact Us</Button>   <Button>Free Estimate</Button>
+                <Button><a href="tel:401-447-5446" data-rel="external" style={{ color: "white" }}><i class="fas fa-phone"></i> 401-447-5446</a></Button>   <Button>Free Estimate</Button>
             </div>
             <p style={{ color: "white", fontWeight: "bold", fontSize: 30 }}>Coming Soon</p>
 
