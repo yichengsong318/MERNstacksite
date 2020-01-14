@@ -10,6 +10,7 @@
     "node-sass": "^4.12.0",
     "react": "^16.10.0",
     "react-animated-text": "^0.1.4",
+    "react-background-slider": "^2.0.0",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.0",
     "react-lazyload": "^2.6.5",
