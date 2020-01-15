@@ -50,10 +50,10 @@ const AboutPage = () => (
       <LightSpeed top cascade>
         <p>- Founder</p>
       </LightSpeed>
-      <div>
-        <Signature />
-      </div>
     </div>
+    {/* <div>
+      <Signature />
+    </div> */}
   </div>
 );
 export default AboutPage;

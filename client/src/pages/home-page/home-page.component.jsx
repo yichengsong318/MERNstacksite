@@ -19,7 +19,7 @@ const HomePage = () => (
                 <div className="containerContact">
                     {/* <span><i class="fas fa-phone"></i> 401-447-5446</span> */}
                     <span>Monday - Friday 8:00AM - 6:00PM</span>
-                    <span>Serving Rhode Island and Mass</span>
+                    <span>Serving RI and Mass</span>
                 </div>
             </div>
 
