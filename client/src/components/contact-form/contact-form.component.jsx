@@ -21,8 +21,8 @@ const ContactForm = () => {
       <Form
         noValidate
         validated={validated}
-        // action="https://sendpoint.io/id/nflcontactform"
-        // method="POST"
+        action="https://sendpoint.io/id/nflcontactform"
+        method="POST"
         onSubmit={handleSubmit}
         style={{}}
         className="ml-auto mr-auto"
