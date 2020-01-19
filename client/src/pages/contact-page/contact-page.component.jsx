@@ -7,10 +7,10 @@ const ContactPage = () => {
   return (
     <div className="contact-page-container">
       <p className="contact-header">Contact Form</p>
-      <Fade right>
+      <Fade left>
         <span className="send-us-email">Send us an email...</span>
       </Fade>
-      <p className="company-email">
+      <p className="company-email" style={{ marginTop: 20, marginBottom: 30 }}>
         <span style={{ marginRight: 5, fontWeight: "bold" }}>
           <i class="far fa-envelope"></i>
         </span>

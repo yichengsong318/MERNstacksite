@@ -16,7 +16,7 @@ const ContactForm = () => {
     setValidated(true);
   };
   return (
-    <div className="contact-container" style={{ marginTop: 30 }}>
+    <div className="contact-container">
       <Form
         noValidate
         validated={validated}
@@ -26,6 +26,7 @@ const ContactForm = () => {
         style={{}}
         className="ml-auto mr-auto"
       >
+        <div style={{ padding: 30 }}></div>
         <Form.Group
           className="ml-auto mr-auto"
           as={Col}
@@ -56,7 +57,7 @@ const ContactForm = () => {
           controlId="exampleForm.ControlTextarea1"
         >
           <Form.Label style={{ fontWeight: "bold" }}>Message</Form.Label>
-          <Form.Control as="textarea" rows="3" name="message" />
+          <Form.Control required as="textarea" rows="3" name="message" />
         </Form.Group>
 
         <Button type="submit">Submit form</Button>

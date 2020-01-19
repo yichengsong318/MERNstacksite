@@ -1,46 +1,44 @@
-.logo-home{
-    width: 70vw;
-    max-height: 15vh;
-    margin-top:7vh;
+.logo-home {
+  width: 70vw;
+  max-height: 15vh;
+  margin-top: 7vh;
 }
 @media screen and (min-width: 900px) {
-    .logo-home{
-       max-width: 20vw;
-       margin-top: 7vh;
-    } 
-
+  .logo-home {
+    max-width: 20vw;
+    margin-top: 7vh;
+  }
 }
 .containerContact {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5vh;
-    color:white;
-    background-color: #343A40;
-    max-width: 310px;
-    margin: 0 auto;
-    margin-top: 5vh;
-    padding: 3px;
-    border: 1;
-    border-radius: 29px
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+  background-color: #343a40;
+  max-width: 310px;
+  margin: 0 auto;
+  margin-top: 5vh;
+  padding: 3px;
+  border: 1;
+  border-radius: 29px;
 }
-.home-container{
+.home-container {
   background: url("../../assets/homeBackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   width: auto;
-background-color: transparent;
+  background-color: transparent;
+}
+.signature {
+  // background-color: white;
 
+  //   margin: 0 auto;
 }
-.signature{
-    // background-color: white;
-    max-width: 320px;
-    margin: 0 auto;
-}
-.button-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 5vh;
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5vh;
 }
