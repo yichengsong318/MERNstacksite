@@ -17,7 +17,8 @@ const HomePage = () => {
     { title: "Landscaping" },
 
     { title: "Property Management" },
-    { title: "Trash Removal" }
+    { title: "Trash Removal" },
+    { title: "and more!" }
   ];
   return (
     <div>
@@ -47,7 +48,7 @@ const HomePage = () => {
             </Button>
             <Button>Free Estimate</Button>
           </div>
-          <div style={{ marginTop: 50 }}>
+          <div style={{ marginTop: 80 }}>
             <Slider
               autoplay={2000}
               infinite={true}
@@ -57,7 +58,7 @@ const HomePage = () => {
               nextButton={false}
             >
               {slides.map((slide, index) => (
-                <div key={index}>
+                <div className="slide-div" key={index}>
                   <h2 className="slide-title">{slide.title}</h2>
                   <div>{slide.description}</div>
                 </div>
@@ -76,6 +77,7 @@ const HomePage = () => {
         </Bounce>
 
         <ContactForm />
+        <div style={{ padding: 30 }}></div>
       </div>
     </div>
   );
