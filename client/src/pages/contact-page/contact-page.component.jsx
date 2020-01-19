@@ -11,24 +11,28 @@ const ContactPage = () => {
       style={{ backgroundColor: "#343A40" }}
     >
       <div style={{ padding: 30 }}></div>
+      <p className="contact-header">Contact Form</p>
       <div className="message-us">
-        <p className="contact-header">Contact Form</p>
         <Fade left>
-          <span className="send-us-email">Send us an email...</span>
+          <div style={{ marginTop: 50 }}>
+            <span className="send-us-email">Send us an email...</span>
+          </div>
         </Fade>
-        <p
-          className="company-email"
-          style={{ marginTop: 20, marginBottom: 30 }}
-        >
+        <p className="company-email">
           <span style={{ marginRight: 5, fontWeight: "bold" }}>
             <i class="far fa-envelope"></i>
           </span>
           Naturesfrontierlandscaping@gmail.com
-        </p>{" "}
-        <Flip left>
-          <span className="send-us-email">Or leave us a message here!</span>
-        </Flip>
+        </p>
       </div>
+      <Flip left>
+        <div style={{ marginTop: 60 }}>
+          <span className="send-us-email" style={{ color: "white" }}>
+            Or leave us a message here!
+          </span>
+        </div>
+      </Flip>
+
       <ContactForm />
     </div>
   );
