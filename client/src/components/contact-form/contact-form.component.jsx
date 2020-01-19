@@ -11,6 +11,7 @@ const ContactForm = () => {
       event.preventDefault();
       event.stopPropagation();
     }
+    console.log(event);
 
     setValidated(true);
   };
@@ -19,8 +20,9 @@ const ContactForm = () => {
       <Form
         noValidate
         validated={validated}
-        action="https://sendpoint.io/id/nflcontactform"
-        method="POST"
+        // action="https://sendpoint.io/id/nflcontactform"
+        // method="POST"
+        onSubmit={handleSubmit}
         style={{}}
         className="ml-auto mr-auto"
       >
@@ -31,7 +33,7 @@ const ContactForm = () => {
           controlId="validationCustom01"
         >
           <Form.Label style={{ fontWeight: "bold" }}>Name</Form.Label>
-          <Form.Control name="name" required type="text" placeholder="Name" />
+          <Form.Control required type="text" placeholder="Name" name="name" />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
         <Form.Group
@@ -42,10 +44,10 @@ const ContactForm = () => {
         >
           <Form.Label style={{ fontWeight: "bold" }}>Phone number</Form.Label>
           <Form.Control
-            name="phone"
             required
             type="tel"
             placeholder="Phone Number"
+            name="phone"
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
@@ -54,7 +56,7 @@ const ContactForm = () => {
           controlId="exampleForm.ControlTextarea1"
         >
           <Form.Label style={{ fontWeight: "bold" }}>Message</Form.Label>
-          <Form.Control name="message" as="textarea" rows="3" />
+          <Form.Control as="textarea" rows="3" name="message" />
         </Form.Group>
 
         <Button type="submit">Submit form</Button>
