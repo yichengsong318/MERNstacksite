@@ -5,63 +5,58 @@
   background-position: center;
   filter: brightness(80%);
 }
-.logo-landing{
+.logo-landing {
   background: url("../../assets/logo1.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 20vh;
   margin-top: 12vh;
-
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   // justify-content: center;
 }
 
-.quote{
-  color:white;
+.quote {
+  color: white;
   font-size: 20px;
   text-align: center;
   max-width: 700px;
   margin: 0 auto;
-  
-  margin-top: 10vh;
 
+  margin-top: 10vh;
 }
-.quoteSign{
-  color: #3895D3;
+.quoteSign {
+  color: #3895d3;
   font-size: 20px;
   margin-top: 3vh;
   margin-bottom: 7vh;
   font-weight: bold;
-
 }
 
-.landingButton{
-  font-weight: bold
-
+.landingButton {
+  font-weight: bold;
 }
 
 @media screen and (min-width: 900px) {
-  .landingButton{
+  .landingButton {
     margin-top: 11vh;
   }
-  .quote{
-    margin-top: 11vh
+  .quote {
+    margin-top: 11vh;
   }
-
 }
-.landingSignature{
-  text-align: center;
-  margin: 0 auto;
-  color:white;
-  position: absolute; 
-  bottom: 0px;
-}
-.sign-div{
+// .landingSignature {
+//   text-align: center;
+//   margin: 0 auto;
+//   color: white;
+//   position: absolute;
+//   bottom: 0px;
+// }
+.sign-div {
   display: flex;
   justify-content: center;
 }

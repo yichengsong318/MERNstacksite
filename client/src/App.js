@@ -11,6 +11,7 @@ import GalleryPage from "./pages/gallery-page/gallery-page.component";
 import ContactPage from "./pages/contact-page/contact-page.component";
 
 import Header from "./components/header/header.component";
+import Footer from "./components/common/footer/footer.component";
 
 import PrivateRoute from "./components/common/private-route/private-route-component";
 
@@ -35,6 +36,7 @@ function App() {
       <Switch>
         <PrivateRoute exact path="/dashboard" component={DashboardPage} />
       </Switch>
+      <Footer />
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import "./home-page.styles.scss";
-// import ContentGrid from "../../components/grid/grid-component";
-import Signature from "../../components/common/signature/Signature.component";
+
 import logo from "../../assets/logo1.png";
 import { Button } from "react-bootstrap";
 import ContactForm from "../../components/contact-form/contact-form.component";
@@ -41,12 +40,12 @@ const HomePage = () => (
         <p style={{ color: "white", fontWeight: "bold", fontSize: 30 }}>
           Coming Soon
         </p>
-        <div className="signature">
-          <Signature />
-        </div>
       </div>{" "}
     </div>
     <div style={{ backgroundColor: "#343A40" }}>
+      <div style={{ padding: 40 }}> </div>
+      <span class="message-header">Send us a message!</span>
+
       <ContactForm />
     </div>
   </div>
