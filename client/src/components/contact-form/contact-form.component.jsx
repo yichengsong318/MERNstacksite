@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Form, Label, Row, Col, InputGroup, Button } from "react-bootstrap";
+import LightSpeed from "react-reveal/LightSpeed";
 import "./contact-form.styles.scss";
 const ContactForm = () => {
   const [validated, setValidated] = useState(false);
@@ -33,7 +34,10 @@ const ContactForm = () => {
           md="4"
           controlId="validationCustom01"
         >
-          <Form.Label className="input-label">Name</Form.Label>
+          {" "}
+          <LightSpeed left>
+            <Form.Label className="input-label">Name</Form.Label>
+          </LightSpeed>
           <Form.Control required type="text" placeholder="Name" name="name" />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
@@ -43,7 +47,9 @@ const ContactForm = () => {
           md="4"
           controlId="validationCustom02"
         >
-          <Form.Label className="input-label">Phone number</Form.Label>
+          <LightSpeed right>
+            <Form.Label className="input-label">Phone number</Form.Label>
+          </LightSpeed>
           <Form.Control
             required
             type="tel"
@@ -56,7 +62,9 @@ const ContactForm = () => {
           className="ml-auto mr-auto message-input"
           controlId="exampleForm.ControlTextarea1"
         >
-          <Form.Label className="input-label">Message</Form.Label>
+          <LightSpeed left>
+            <Form.Label className="input-label">Message</Form.Label>
+          </LightSpeed>
           <Form.Control required as="textarea" rows="3" name="message" />
         </Form.Group>
 

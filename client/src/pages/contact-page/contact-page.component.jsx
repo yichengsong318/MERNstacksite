@@ -2,6 +2,7 @@ import React from "react";
 import ContactForm from "../../components/contact-form/contact-form.component";
 import "./contact-page.styles.scss";
 import Fade from "react-reveal/Fade";
+import Flip from "react-reveal/Flip";
 
 const ContactPage = () => {
   return (
@@ -24,9 +25,9 @@ const ContactPage = () => {
           </span>
           Naturesfrontierlandscaping@gmail.com
         </p>{" "}
-        <Fade right>
+        <Flip left>
           <span className="send-us-email">Or leave us a message here!</span>
-        </Fade>
+        </Flip>
       </div>
       <ContactForm />
     </div>
