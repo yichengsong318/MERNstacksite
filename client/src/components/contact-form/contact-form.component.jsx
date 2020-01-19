@@ -53,7 +53,7 @@ const ContactForm = () => {
           <Form.Control
             required
             type="tel"
-            placeholder="Phone Number"
+            placeholder="XXX-XXX-XXXX"
             name="phone"
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
@@ -65,7 +65,13 @@ const ContactForm = () => {
           <LightSpeed left>
             <Form.Label className="input-label">Message</Form.Label>
           </LightSpeed>
-          <Form.Control required as="textarea" rows="3" name="message" />
+          <Form.Control
+            required
+            as="textarea"
+            rows="3"
+            name="message"
+            placeholder="I would like more information regarding..."
+          />
         </Form.Group>
 
         <Button type="submit">Submit form</Button>
