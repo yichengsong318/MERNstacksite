@@ -33,7 +33,7 @@ const ContactForm = () => {
           md="4"
           controlId="validationCustom01"
         >
-          <Form.Label style={{ fontWeight: "bold" }}>Name</Form.Label>
+          <Form.Label className="input-label">Name</Form.Label>
           <Form.Control required type="text" placeholder="Name" name="name" />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
@@ -43,7 +43,7 @@ const ContactForm = () => {
           md="4"
           controlId="validationCustom02"
         >
-          <Form.Label style={{ fontWeight: "bold" }}>Phone number</Form.Label>
+          <Form.Label className="input-label">Phone number</Form.Label>
           <Form.Control
             required
             type="tel"
@@ -56,7 +56,7 @@ const ContactForm = () => {
           className="ml-auto mr-auto message-input"
           controlId="exampleForm.ControlTextarea1"
         >
-          <Form.Label style={{ fontWeight: "bold" }}>Message</Form.Label>
+          <Form.Label className="input-label">Message</Form.Label>
           <Form.Control required as="textarea" rows="3" name="message" />
         </Form.Group>
 

@@ -1,7 +1,12 @@
 .contact-container {
   //
-  padding: 0px 10px;
+  padding: 0px;
 }
 .message-input {
   max-width: 600px;
+}
+.input-label {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
 }

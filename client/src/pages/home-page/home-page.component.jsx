@@ -41,14 +41,14 @@ const HomePage = () => (
         <p style={{ color: "white", fontWeight: "bold", fontSize: 30 }}>
           Coming Soon
         </p>
+        <div className="signature">
+          <Signature />
+        </div>
       </div>{" "}
     </div>
     <div style={{ backgroundColor: "#343A40" }}>
       <ContactForm />
     </div>
-    {/* <div className="signature">
-      <Signature />
-    </div> */}
   </div>
 );
 export default HomePage;
