@@ -15,21 +15,46 @@ const ContactForm = () => {
     setValidated(true);
   };
   return (
-    <div className="contact-container">
-      <Form noValidate validated={validated} onSubmit={handleSubmit}>
-        <Form.Group as={Col} md="4" controlId="validationCustom01">
-          <Form.Label>Name</Form.Label>
-          <Form.Control required type="text" placeholder="Name" />
+    <div className="contact-container" style={{ marginTop: 30 }}>
+      <Form
+        noValidate
+        validated={validated}
+        action="https://sendpoint.io/id/nflcontactform"
+        method="POST"
+        style={{}}
+        className="ml-auto mr-auto"
+      >
+        <Form.Group
+          className="ml-auto mr-auto"
+          as={Col}
+          md="4"
+          controlId="validationCustom01"
+        >
+          <Form.Label style={{ fontWeight: "bold" }}>Name</Form.Label>
+          <Form.Control name="name" required type="text" placeholder="Name" />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
-        <Form.Group as={Col} md="4" controlId="validationCustom02">
-          <Form.Label>Phone number</Form.Label>
-          <Form.Control required type="tel" placeholder="Phone Number" />
+        <Form.Group
+          className="ml-auto mr-auto"
+          as={Col}
+          md="4"
+          controlId="validationCustom02"
+        >
+          <Form.Label style={{ fontWeight: "bold" }}>Phone number</Form.Label>
+          <Form.Control
+            name="phone"
+            required
+            type="tel"
+            placeholder="Phone Number"
+          />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
-        <Form.Group controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Message</Form.Label>
-          <Form.Control as="textarea" rows="3" />
+        <Form.Group
+          className="ml-auto mr-auto message-input"
+          controlId="exampleForm.ControlTextarea1"
+        >
+          <Form.Label style={{ fontWeight: "bold" }}>Message</Form.Label>
+          <Form.Control name="message" as="textarea" rows="3" />
         </Form.Group>
 
         <Button type="submit">Submit form</Button>
