@@ -47,7 +47,9 @@ const HomePage = () => {
                 <i class="fas fa-phone"></i> 401-447-5446
               </a>
             </Button>
-            <Button>Free Estimate</Button>
+            <Button onClick={() => (window.location.href = "/contact")}>
+              Free Estimate
+            </Button>
           </div>
           <div style={{ marginTop: 80 }}>
             <Slider
