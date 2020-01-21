@@ -5,6 +5,7 @@ import logo from "../../assets/logo1.png";
 import { Button } from "react-bootstrap";
 import ContactForm from "../../components/contact-form/contact-form.component";
 import Bounce from "react-reveal/Bounce";
+import WhatWeDo from "../../components/what-we-do/what-we-do.component";
 // import homeBackground from "../../assets/homeBackground.jpg"
 // import homeBackground1 from "../../assets/homeBackground1.jpg"
 // import homeBackground2 from "../../assets/homeBackground2.jpg"
@@ -69,6 +70,19 @@ const HomePage = () => {
             </Slider>
           </div>
         </div>
+      </div>
+
+      <div style={{ backgroundColor: "#CDCDCD" }}>
+        <div style={{ padding: 10 }}> </div>
+        <Bounce left>
+          <div>
+            <span class="message-header">What we do</span>
+          </div>
+        </Bounce>
+        <div style={{ padding: 10 }}> </div>
+        <WhatWeDo />
+
+        <div style={{ padding: 30 }}></div>
       </div>
 
       <div style={{ backgroundColor: "#343A40" }}>
