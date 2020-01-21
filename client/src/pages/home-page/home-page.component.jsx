@@ -76,9 +76,17 @@ const HomePage = () => {
         <div style={{ padding: 10 }}> </div>
         <Bounce left>
           <div>
-            <span class="message-header">What we do</span>
+            <span class="what-we-do-header">What we do</span>
           </div>
         </Bounce>
+
+        <div>
+          <span class="what-we-do-sub-head">
+            {" "}
+            <Bounce right>Licensed and fully insured </Bounce>
+          </span>
+        </div>
+
         <div style={{ padding: 10 }}> </div>
         <WhatWeDo />
 
