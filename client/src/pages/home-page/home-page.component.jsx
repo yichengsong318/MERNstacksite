@@ -32,7 +32,8 @@ const HomePage = () => {
             <div className="containerContact">
               {/* <span><i class="fas fa-phone"></i> 401-447-5446</span> */}
               <span>Monday - Friday 8:00AM - 6:00PM</span>
-              <span>Serving RI and Mass</span>
+              <span style={{ fontWeight: "bold" }}>Serving RI and Mass</span>
+              <span>401-447-5446</span>
             </div>
           </div>
 
