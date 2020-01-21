@@ -71,39 +71,35 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-
-      <div style={{ backgroundColor: "#CDCDCD" }}>
-        <div style={{ padding: 10 }}> </div>
-        <Bounce left>
+      <Bounce left>
+        <div style={{ backgroundColor: "#CDCDCD" }}>
+          <div style={{ padding: 10 }}> </div>
           <div>
             <span class="what-we-do-header">What we do</span>
           </div>
-        </Bounce>
 
-        <div>
-          <span class="what-we-do-sub-head">
-            {" "}
-            <Bounce right>Licensed and fully insured </Bounce>
-          </span>
+          <div>
+            <span class="what-we-do-sub-head"> Licensed and fully insured</span>
+          </div>
+
+          <div style={{ padding: 10 }}> </div>
+          <WhatWeDo />
+
+          <div style={{ padding: 30 }}></div>
         </div>
+      </Bounce>
+      <Bounce left>
+        <div style={{ backgroundColor: "#343A40" }}>
+          <div style={{ padding: 40 }}> </div>
 
-        <div style={{ padding: 10 }}> </div>
-        <WhatWeDo />
-
-        <div style={{ padding: 30 }}></div>
-      </div>
-
-      <div style={{ backgroundColor: "#343A40" }}>
-        <div style={{ padding: 40 }}> </div>
-        <Bounce left>
           <div>
             <span class="message-header">Send us a message!</span>
           </div>
-        </Bounce>
 
-        <ContactForm />
-        <div style={{ padding: 30 }}></div>
-      </div>
+          <ContactForm />
+          <div style={{ padding: 30 }}></div>
+        </div>
+      </Bounce>
     </div>
   );
 };
