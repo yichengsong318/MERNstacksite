@@ -14,7 +14,7 @@ const ContactPage = () => {
       <p className="contact-header">Contact Form</p>
       <div className="message-us">
         <Fade left>
-          <div style={{ marginTop: 50 }}>
+          <div style={{}}>
             <span className="send-us-email">Send us an email...</span>
           </div>
         </Fade>
