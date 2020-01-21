@@ -17,7 +17,6 @@ a:hover {
   color: #008700 !important;
 }
 
-.dropdown-menu {
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
+.navbar-nav > li > .dropdown-menu {
+  background-color: #ff0000;
 }

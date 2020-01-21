@@ -11,18 +11,22 @@ export default class Header extends Component {
           <Navbar.Brand href="/home">
             <i class="fas fa-home"></i>
           </Navbar.Brand>
-          <NavDropdown title="Services" id="collasible-nav-dropdown">
+          <NavDropdown
+            title="Services"
+            class="dropdown-menu"
+            id="collasible-nav-dropdown"
+          >
             <NavDropdown.Item href="/landscaping">Landscaping</NavDropdown.Item>
+            <NavDropdown.Divider />
             <NavDropdown.Item href="/property-management">
               Property Management
             </NavDropdown.Item>
+            <NavDropdown.Divider />
             <NavDropdown.Item href="/trash-removal">
               Trash Removal
             </NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.4">Other</NavDropdown.Item>
           </NavDropdown>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
