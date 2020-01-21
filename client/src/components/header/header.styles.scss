@@ -6,14 +6,18 @@
 // }
 
 .navbar a {
-    color: white !important;
-    &:hover {
-        color:#2D77A9;
-    }
+  color: black !important;
+
+  &:hover {
+    color: #2d77a9;
+  }
 }
 
-a:hover { color: #2D77A9 !important; }
+a:hover {
+  color: #2d77a9 !important;
+}
 
-.dropdown-menu{background:rgba(0,0,0,0.5); color:white; }
-
-
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
