@@ -4,7 +4,7 @@ import "./home-page.styles.scss";
 import logo from "../../assets/logo1.png";
 import { Button } from "react-bootstrap";
 import ContactForm from "../../components/contact-form/contact-form.component";
-import Bounce from "react-reveal/Bounce";
+import Fade from "react-reveal/Fade";
 import WhatWeDo from "../../components/what-we-do/what-we-do.component";
 // import homeBackground from "../../assets/homeBackground.jpg"
 // import homeBackground1 from "../../assets/homeBackground1.jpg"
@@ -71,7 +71,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <Bounce left>
+      <Fade right>
         <div style={{ backgroundColor: "#CDCDCD" }}>
           <div style={{ padding: 10 }}> </div>
           <div>
@@ -87,8 +87,8 @@ const HomePage = () => {
 
           <div style={{ padding: 30 }}></div>
         </div>
-      </Bounce>
-      <Bounce left>
+      </Fade>
+      <Fade left>
         <div style={{ backgroundColor: "#343A40" }}>
           <div style={{ padding: 40 }}> </div>
 
@@ -99,7 +99,7 @@ const HomePage = () => {
           <ContactForm />
           <div style={{ padding: 30 }}></div>
         </div>
-      </Bounce>
+      </Fade>
     </div>
   );
 };
