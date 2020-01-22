@@ -6,6 +6,8 @@ import { Button } from "react-bootstrap";
 import ContactForm from "../../components/contact-form/contact-form.component";
 import Fade from "react-reveal/Fade";
 import WhatWeDo from "../../components/what-we-do/what-we-do.component";
+import LazyLoad from "react-lazyload";
+import Spinner from "../../components/common/spinner/spinner.component";
 // import homeBackground from "../../assets/homeBackground.jpg"
 // import homeBackground1 from "../../assets/homeBackground1.jpg"
 // import homeBackground2 from "../../assets/homeBackground2.jpg"
@@ -83,7 +85,9 @@ const HomePage = () => {
           </div>
 
           <div style={{ padding: 10 }}> </div>
-          <WhatWeDo />
+          <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+            <WhatWeDo />
+          </LazyLoad>
 
           <div style={{ padding: 30 }}></div>
         </div>
