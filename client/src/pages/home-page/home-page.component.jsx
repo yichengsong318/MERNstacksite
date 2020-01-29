@@ -49,7 +49,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <Fade right>
+      {/* <Fade right>
         <div style={{ backgroundColor: "#CDCDCD" }}>
           <div style={{ padding: 10 }}> </div>
           <div>
@@ -79,7 +79,7 @@ const HomePage = () => {
           <ContactForm />
           <div style={{ padding: 30 }}></div>
         </div>
-      </Fade>
+      </Fade> */}
     </div>
   );
 };
