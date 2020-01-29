@@ -1,14 +1,9 @@
 import React, { Component } from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
-import "./header.styles.scss";
+import "./home-header.styles.scss";
 
-export default class Header extends Component {
+export default class HomeHeader extends Component {
   render() {
-    if (
-      window.location.pathname === "/" ||
-      window.location.pathname === "/home"
-    )
-      return null;
     return (
       <div style={{}}>
         <Navbar collapseOnSelect expand="lg" className="navbar-inner">

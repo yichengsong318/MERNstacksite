@@ -1,0 +1,22 @@
+// .home-logo {
+//   background: url("../../assets/logo1.png");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
+
+.navbar a {
+  color: black !important;
+
+  &:hover {
+    color: #2d77a9;
+  }
+}
+
+a:hover {
+  color: #008700 !important;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: #ff0000;
+}

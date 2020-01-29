@@ -1,25 +1,66 @@
 import React from "react";
 import "./home-page.styles.scss";
 
-import logo from "../../assets/logo1.png";
-import { Button } from "react-bootstrap";
-import ContactForm from "../../components/contact-form/contact-form.component";
-import Fade from "react-reveal/Fade";
-import WhatWeDo from "../../components/what-we-do/what-we-do.component";
-import LazyLoad from "react-lazyload";
-import Spinner from "../../components/common/spinner/spinner.component";
+import Slider from "react-animated-slider";
+import "react-animated-slider/build/horizontal.css";
+import "./slider.styles..scss";
+import HomeHeader from "../../components/common/home-header/home-header.component";
+// import logo from "../../assets/logo1.png";
+// import { Button } from "react-bootstrap";
+// import ContactForm from "../../components/contact-form/contact-form.component";
+// import Fade from "react-reveal/Fade";
+// import WhatWeDo from "../../components/what-we-do/what-we-do.component";
+// import LazyLoad from "react-lazyload";
+// import Spinner from "../../components/common/spinner/spinner.component";
 // import homeBackground from "../../assets/homeBackground.jpg"
 // import homeBackground1 from "../../assets/homeBackground1.jpg"
 // import homeBackground2 from "../../assets/homeBackground2.jpg"
 
 const HomePage = () => {
+  const content = [
+    {
+      title: "Vulputate Mollis Ultricies Fermentum Parturient",
+      description: "Aenean eu leo quam.ac facilisis.",
+
+      image: "https://i.imgur.com/ZXBtVw7.jpg"
+    },
+    {
+      title: "Tortor Dapibus Commodo Aenean Quam",
+      description:
+        "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis csectetur ac, vestibulum at eros. Donec sed odio dui.",
+
+      image: "https://i.imgur.com/DCdBXcq.jpg"
+    },
+    {
+      title: "Phasellus volutpat metus",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur ps eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+
+      image: "https://i.imgur.com/DvmN8Hx.jpg"
+    }
+  ];
   return (
-    <div>
-      <div
-        className="home-container"
-        style={{ justifyContent: "center", alignItems: "center" }}
-      >
-        <div style={{ backgroundSize: "contain" }}>
+    <div style={{}}>
+      <HomeHeader />
+      <div style={{ height: "100vh" }}>
+        <Slider className="slider-wrapper">
+          {content.map((item, index) => (
+            <div
+              key={index}
+              className="slider-content"
+              style={{
+                background: `url('${item.image}') no-repeat center center`
+              }}
+            >
+              <div className="inner">
+                <h1>{item.title}</h1>
+                <p>{item.description}</p>
+              </div>
+            </div>
+          ))}
+        </Slider>
+      </div>
+      {/* <div style={{ backgroundSize: "contain" }}>
           <div>
             <img src={logo} className="logo-home" />
             <div className="containerContact">
@@ -47,8 +88,8 @@ const HomePage = () => {
               Free Estimate
             </Button>
           </div>
-        </div>
-      </div>
+        </div> */}
+
       {/* <Fade right>
         <div style={{ backgroundColor: "#CDCDCD" }}>
           <div style={{ padding: 10 }}> </div>
