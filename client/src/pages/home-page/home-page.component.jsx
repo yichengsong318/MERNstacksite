@@ -12,17 +12,9 @@ import Spinner from "../../components/common/spinner/spinner.component";
 // import homeBackground1 from "../../assets/homeBackground1.jpg"
 // import homeBackground2 from "../../assets/homeBackground2.jpg"
 
-import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 
 const HomePage = () => {
-  const slides = [
-    { title: "Landscaping" },
-
-    { title: "Property Management" },
-    { title: "Trash Removal" },
-    { title: "and more!" }
-  ];
   return (
     <div>
       <div
@@ -33,7 +25,6 @@ const HomePage = () => {
           <div>
             <img src={logo} className="logo-home" />
             <div className="containerContact">
-              {/* <span><i class="fas fa-phone"></i> 401-447-5446</span> */}
               <span>Monday - Sunday 24/7</span>
               <span>Available for emergencies</span>
               <span style={{ fontWeight: "bold" }}>Serving RI and Mass</span>
