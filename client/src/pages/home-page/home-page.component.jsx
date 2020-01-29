@@ -34,7 +34,8 @@ const HomePage = () => {
             <img src={logo} className="logo-home" />
             <div className="containerContact">
               {/* <span><i class="fas fa-phone"></i> 401-447-5446</span> */}
-              <span>Monday - Friday 8:00AM - 6:00PM</span>
+              <span>Monday - Sunday 24/7</span>
+              <span>Available for emergencies</span>
               <span style={{ fontWeight: "bold" }}>Serving RI and Mass</span>
               <span>401-447-5446</span>
             </div>
@@ -50,26 +51,12 @@ const HomePage = () => {
                 <i class="fas fa-phone"></i> 401-447-5446
               </a>
             </Button>
-            <Button onClick={() => (window.location.href = "/contact")}>
+            <Button
+              style={{ fontWeight: "bold" }}
+              onClick={() => (window.location.href = "/contact")}
+            >
               Free Estimate
             </Button>
-          </div>
-          <div style={{ marginTop: 80 }}>
-            <Slider
-              autoplay={2000}
-              infinite={true}
-              duration={2000}
-              animateIn={"animateIn"}
-              previousButton={false}
-              nextButton={false}
-            >
-              {slides.map((slide, index) => (
-                <div className="slide-div" key={index}>
-                  <h2 className="slide-title">{slide.title}</h2>
-                  <div>{slide.description}</div>
-                </div>
-              ))}
-            </Slider>
           </div>
         </div>
       </div>
