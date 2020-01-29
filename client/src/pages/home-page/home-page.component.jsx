@@ -12,8 +12,6 @@ import Spinner from "../../components/common/spinner/spinner.component";
 // import homeBackground1 from "../../assets/homeBackground1.jpg"
 // import homeBackground2 from "../../assets/homeBackground2.jpg"
 
-import "react-animated-slider/build/horizontal.css";
-
 const HomePage = () => {
   return (
     <div>
