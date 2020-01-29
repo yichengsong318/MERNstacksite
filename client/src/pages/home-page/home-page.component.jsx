@@ -15,6 +15,10 @@ import HomeHeader from "../../components/common/home-header/home-header.componen
 // import homeBackground from "../../assets/homeBackground.jpg"
 // import homeBackground1 from "../../assets/homeBackground1.jpg"
 // import homeBackground2 from "../../assets/homeBackground2.jpg"
+import image1 from "../../assets/homeBackground.jpeg";
+import image2 from "../../assets/homeBackground1.jpeg";
+import image3 from "../../assets/homeBackground3.jpeg";
+import image4 from "../../assets/homeBackground4.jpg";
 
 const HomePage = () => {
   const content = [
@@ -22,27 +26,34 @@ const HomePage = () => {
       title: "Vulputate Mollis Ultricies Fermentum Parturient",
       description: "Aenean eu leo quam.ac facilisis.",
 
-      image: "https://i.imgur.com/ZXBtVw7.jpg"
+      image: image1
     },
     {
       title: "Tortor Dapibus Commodo Aenean Quam",
       description:
-        "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis csectetur ac, vestibulum at eros. Donec sed odio dui.",
+        "Nullam id dolor id nibh ultricies vehicula ut id elit. Cradui.",
 
-      image: "https://i.imgur.com/DCdBXcq.jpg"
+      image: image2
     },
     {
       title: "Phasellus volutpat metus",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur ps eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. modo luctus, nisi erat porttitor ligula.",
 
-      image: "https://i.imgur.com/DvmN8Hx.jpg"
+      image: image3
+    },
+    {
+      title: "Phasellus volutpat metus",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis condo itor ligula.",
+
+      image: image4
     }
   ];
   return (
     <div style={{}}>
       <HomeHeader />
-      <div style={{ height: "100vh" }}>
+      <div style={{}}>
         <Slider className="slider-wrapper">
           {content.map((item, index) => (
             <div
