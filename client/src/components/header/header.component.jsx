@@ -12,7 +12,7 @@ export default class Header extends Component {
       return null;
     return (
       <div style={{}}>
-        <Navbar collapseOnSelect expand="lg" className="navbar-inner">
+        <Navbar collapseOnSelect expand="lg" className="navbar-inner navbar">
           <Navbar.Brand href="/home">
             <i class="fas fa-home"></i>
           </Navbar.Brand>
@@ -38,13 +38,26 @@ export default class Header extends Component {
             <Nav className="mr-auto">
               <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="/gallery">Gallery</Nav.Link>
-            </Nav>
-            <Nav>
               <Nav.Link href="/contact">Contact</Nav.Link>
-              {/* <Nav.Link eventKey={2} href="#memes">
-                Login
-              </Nav.Link> */}
             </Nav>
+            <Nav
+              className="ml-auto"
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "center"
+              }}
+            >
+              <Nav.Link href="https://www.facebook.com/Natures-View-Landscaping-131440330221618/">
+                <i className="fab fa-facebook" style={{ fontSize: 20 }}></i>
+              </Nav.Link>
+              <div style={{ padding: 5 }}></div>
+
+              <Nav.Link href="https://www.instagram.com/natures_frontier_landscaping/">
+                <i className="fab fa-instagram" style={{ fontSize: 20 }}></i>
+              </Nav.Link>
+            </Nav>
+            <Nav></Nav>
           </Navbar.Collapse>
         </Navbar>
       </div>
