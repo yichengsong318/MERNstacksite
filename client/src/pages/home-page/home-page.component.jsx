@@ -23,27 +23,26 @@ import image4 from "../../assets/homeBackground4.jpg";
 const HomePage = () => {
   const content = [
     {
-      title: "Vulputate Mollis Ultricies Fermentum Parturient",
+      title: "Landscaping",
       description: "Aenean eu leo quam.ac facilisis.",
 
       image: image1
     },
     {
-      title: "Tortor Dapibus Commodo Aenean Quam",
-      description:
-        "Nullam id dolor id nibh ultricies vehicula ut id elit. Cradui.",
+      title: "",
+      description: "Any type of job... We have you covered",
 
       image: image2
     },
     {
-      title: "Phasellus volutpat metus",
+      title: "Property Maintenance",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. modo luctus, nisi erat porttitor ligula.",
 
       image: image3
     },
     {
-      title: "Phasellus volutpat metus",
+      title: "Snow Removal",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis condo itor ligula.",
 
