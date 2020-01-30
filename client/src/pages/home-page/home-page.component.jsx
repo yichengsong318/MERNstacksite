@@ -89,8 +89,11 @@ const HomePage = () => {
                     style={{ fontWeight: "bold" }}
                     onClick={() => (window.location.href = "/contact")}
                     variant="light"
+                    className="contact-button"
                   >
-                    Free Estimate
+                    <a href="/contact" style={{ color: "black" }}>
+                      Free Estimate
+                    </a>
                   </Button>
                 </div>
               </div>
