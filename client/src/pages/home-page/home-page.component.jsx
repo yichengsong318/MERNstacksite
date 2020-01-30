@@ -24,9 +24,9 @@ import image5 from "../../assets/homeBackground5.jpg";
 const HomePage = () => {
   const content = [
     {
-      title: "Excellence",
+      title: "Committed to Excellence",
       description:
-        "With over 10 years of experience, we get the job done right",
+        "With over 10 years of experience, we work with our clients to make their ideas come true",
 
       image: image1
     },
