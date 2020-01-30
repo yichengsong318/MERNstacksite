@@ -34,36 +34,49 @@ export default class HomeHeader extends Component {
               <Nav.Link href="/gallery">Gallery</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
+            <Nav
+              className="ml-auto"
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "center"
+              }}
+            >
+              <Nav.Link href="https://www.facebook.com/Natures-View-Landscaping-131440330221618/">
+                <i className="fab fa-facebook" style={{ fontSize: 20 }}></i>
+              </Nav.Link>
+              <div style={{ padding: 5 }}></div>
+
+              <Nav.Link href="https://www.instagram.com/natures_frontier_landscaping/">
+                <i className="fab fa-instagram" style={{ fontSize: 20 }}></i>
+              </Nav.Link>
+            </Nav>
             <Nav>
-              <div style={{ textAlign: "center" }} className="social-links">
-                <a href="https://www.facebook.com/Natures-View-Landscaping-131440330221618/">
-                  <span>
+              {/* <Nav>
+                <div style={{ textAlign: "center" }} className="social-links">
+                  <a href="https://www.facebook.com/Natures-View-Landscaping-131440330221618/">
                     <i
                       className="fab fa-facebook"
                       style={{ color: "black", fontSize: 20 }}
                     ></i>
-                  </span>
-                </a>
-                <span style={{ padding: 10 }}></span>
+                  </a>
+                  <span style={{ padding: 10 }}></span>
 
-                <a href="http://www.twitter.com/CG_CODING">
-                  <span>
+                  <a href="http://www.twitter.com/CG_CODING">
                     <i
                       className="fab fa-twitter"
                       style={{ color: "black", fontSize: 20 }}
                     ></i>
-                  </span>
-                </a>
-                <span style={{ padding: 10 }}></span>
-                <a href="https://www.instagram.com/natures_frontier_landscaping/">
-                  <span>
+                  </a>
+                  <span style={{ padding: 10 }}></span>
+                  <a href="https://www.instagram.com/natures_frontier_landscaping/">
                     <i
                       className="fab fa-instagram"
                       style={{ color: "black", fontSize: 20 }}
                     ></i>
-                  </span>
-                </a>
-              </div>
+                  </a>
+                </div>
+              </Nav> */}
 
               {/* <Nav.Link eventKey={2} href="#memes">
                 Login

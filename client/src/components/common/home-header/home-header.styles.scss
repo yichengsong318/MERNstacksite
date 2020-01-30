@@ -7,17 +7,14 @@
 
 .navbar a {
   color: black !important;
+}
 
-  // &:hover {
-  //   color: #2d77a9;
-  // }
+nav:hover {
+  color: #008700 !important;
 }
 
 .navbar-inner {
   background: transparent;
-}
-a:hover {
-  color: #008700 !important;
 }
 
 .navbar-nav > li > .dropdown-menu {

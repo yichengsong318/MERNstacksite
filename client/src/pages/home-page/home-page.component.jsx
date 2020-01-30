@@ -58,7 +58,7 @@ const HomePage = () => {
   ];
   return (
     <div style={{ height: "100%" }}>
-      <div style={{ height: "7vh" }}>
+      <div style={{}}>
         <HomeHeader />
       </div>
       <div style={{}}>
