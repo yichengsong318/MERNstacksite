@@ -6,12 +6,9 @@ import Flip from "react-reveal/Flip";
 
 const ContactPage = () => {
   return (
-    <div
-      className="contact-page-container"
-      style={{ backgroundColor: "#343A40" }}
-    >
-      <div style={{ padding: 30 }}></div>
-      <p className="contact-header">Contact Form</p>
+    <div className="contact-page-container" style={{}}>
+      <p className="contact-header">Contact Us</p>
+      <div style={{ padding: 10 }}></div>
       <div className="message-us">
         <Fade left>
           <div style={{}}>
@@ -26,14 +23,15 @@ const ContactPage = () => {
         </p>
       </div>
       <Flip left>
-        <div style={{ marginTop: 60 }}>
-          <span className="send-us-email" style={{ color: "white" }}>
+        <div style={{ marginTop: 80 }}>
+          <span className="send-us-email" style={{}}>
             Or leave us a message here!
           </span>
         </div>
       </Flip>
 
       <ContactForm />
+      <div style={{ paddingBottom: 200 }}></div>
     </div>
   );
 };

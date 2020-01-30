@@ -68,6 +68,7 @@ const AboutPage = () => (
       <LightSpeed top cascade>
         <p>- Founder</p>
       </LightSpeed>
+      <div style={{ paddingBottom: 200 }}></div>
     </div>
     {/* <div>
       <Signature />

@@ -2,7 +2,7 @@
 }
 .contact-header {
   font-size: 30px;
-  color: white;
+  color: black;
 
   font-weight: bold;
 }
@@ -13,11 +13,16 @@
 
 .company-email {
   font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .message-us {
-  background-color: white;
+  // background-color: black;
   max-width: 600px;
-  border: 2px solid;
+  border-bottom: 2px solid;
+  padding-bottom: 30px;
+  max-width: 310px;
 
   margin: 0 auto;
+  margin-top: 50px;
 }
