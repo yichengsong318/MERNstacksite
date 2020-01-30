@@ -6,7 +6,7 @@ import "react-animated-slider/build/horizontal.css";
 import "./slider.styles..scss";
 import HomeHeader from "../../components/common/home-header/home-header.component";
 // import logo from "../../assets/logo1.png";
-// import { Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 // import ContactForm from "../../components/contact-form/contact-form.component";
 // import Fade from "react-reveal/Fade";
 // import WhatWeDo from "../../components/what-we-do/what-we-do.component";
@@ -74,6 +74,24 @@ const HomePage = () => {
               <div className="inner">
                 <h1>{item.title}</h1>
                 <p>{item.description}</p>
+                <div>
+                  <Button>
+                    <a
+                      href="tel:401-447-5446"
+                      data-rel="external"
+                      style={{ color: "white" }}
+                    >
+                      <i class="fas fa-phone"></i> 401-447-5446
+                    </a>
+                  </Button>
+                  <div style={{ padding: 10 }}></div>
+                  <Button
+                    style={{ fontWeight: "bold" }}
+                    onClick={() => (window.location.href = "/contact")}
+                  >
+                    Free Estimate
+                  </Button>
+                </div>
               </div>
             </div>
           ))}
