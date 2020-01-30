@@ -51,7 +51,7 @@ const HomePage = () => {
     }
   ];
   return (
-    <div style={{}}>
+    <div style={{ height: "100%" }}>
       <HomeHeader />
       <div style={{}}>
         <Slider className="slider-wrapper">
