@@ -75,11 +75,11 @@ const HomePage = () => {
                 <h1>{item.title}</h1>
                 <p>{item.description}</p>
                 <div>
-                  <Button>
+                  <Button variant="light">
                     <a
                       href="tel:401-447-5446"
                       data-rel="external"
-                      style={{ color: "white" }}
+                      style={{ color: "black" }}
                     >
                       <i class="fas fa-phone"></i> 401-447-5446
                     </a>
@@ -88,6 +88,7 @@ const HomePage = () => {
                   <Button
                     style={{ fontWeight: "bold" }}
                     onClick={() => (window.location.href = "/contact")}
+                    variant="light"
                   >
                     Free Estimate
                   </Button>
