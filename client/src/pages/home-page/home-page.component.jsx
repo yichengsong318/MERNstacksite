@@ -19,17 +19,19 @@ import image1 from "../../assets/homeBackground.jpeg";
 import image2 from "../../assets/homeBackground1.jpeg";
 import image3 from "../../assets/homeBackground3.jpeg";
 import image4 from "../../assets/homeBackground4.jpg";
+import image5 from "../../assets/homeBackground5.jpg";
 
 const HomePage = () => {
   const content = [
     {
-      title: "Landscaping",
-      description: "Aenean eu leo quam.ac facilisis.",
+      title: "Excellence",
+      description:
+        "With over 10 years of experience, we get the job done right",
 
       image: image1
     },
     {
-      title: "",
+      title: "Want something done right?",
       description: "Any type of job... We have you covered",
 
       image: image2
@@ -47,6 +49,13 @@ const HomePage = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis condo itor ligula.",
 
       image: image4
+    },
+    {
+      title: "Lawn Care",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis condo itor ligula.",
+
+      image: image5
     }
   ];
   return (
