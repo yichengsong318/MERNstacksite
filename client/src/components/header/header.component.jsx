@@ -41,9 +41,9 @@ export default class Header extends Component {
             </Nav>
             <Nav>
               <Nav.Link href="/contact">Contact</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
+              {/* <Nav.Link eventKey={2} href="#memes">
                 Login
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>

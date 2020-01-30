@@ -32,12 +32,42 @@ export default class HomeHeader extends Component {
             <Nav className="mr-auto">
               <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="/gallery">Gallery</Nav.Link>
+              <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="/contact">Contact</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
+              <div style={{ textAlign: "center" }} className="social-links">
+                <a href="https://www.facebook.com/Natures-View-Landscaping-131440330221618/">
+                  <span>
+                    <i
+                      className="fab fa-facebook"
+                      style={{ color: "black", fontSize: 20 }}
+                    ></i>
+                  </span>
+                </a>
+                <span style={{ padding: 10 }}></span>
+
+                <a href="http://www.twitter.com/CG_CODING">
+                  <span>
+                    <i
+                      className="fab fa-twitter"
+                      style={{ color: "black", fontSize: 20 }}
+                    ></i>
+                  </span>
+                </a>
+                <span style={{ padding: 10 }}></span>
+                <a href="https://www.instagram.com/natures_frontier_landscaping/">
+                  <span>
+                    <i
+                      className="fab fa-instagram"
+                      style={{ color: "black", fontSize: 20 }}
+                    ></i>
+                  </span>
+                </a>
+              </div>
+
+              {/* <Nav.Link eventKey={2} href="#memes">
                 Login
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>
