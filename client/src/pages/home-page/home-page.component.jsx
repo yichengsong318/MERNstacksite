@@ -12,9 +12,7 @@ import { Button } from "react-bootstrap";
 // import WhatWeDo from "../../components/what-we-do/what-we-do.component";
 // import LazyLoad from "react-lazyload";
 // import Spinner from "../../components/common/spinner/spinner.component";
-// import homeBackground from "../../assets/homeBackground.jpg"
-// import homeBackground1 from "../../assets/homeBackground1.jpg"
-// import homeBackground2 from "../../assets/homeBackground2.jpg"
+
 import image1 from "../../assets/homeBackground.jpeg";
 import image2 from "../../assets/homeBackground1.jpeg";
 import image3 from "../../assets/homeBackground3.jpeg";
