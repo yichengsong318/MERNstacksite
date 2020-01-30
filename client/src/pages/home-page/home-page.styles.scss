@@ -123,12 +123,12 @@ header section a {
 
 .slider-wrapper {
   position: relative;
-  height: 100vh;
+  height: 93vh;
   overflow: hidden;
 }
 
 .slide {
-  height: 100vh;
+  height: 93vh;
   background-size: cover !important;
 }
 
@@ -162,6 +162,8 @@ header section a {
   height: 32px;
   text-indent: -9999px;
   cursor: pointer;
+  filter: brightness(0) saturate(100%) invert(93%) sepia(20%) saturate(26%)
+    hue-rotate(101deg) brightness(106%) contrast(106%);
 }
 
 .previousButton:hover,
@@ -172,6 +174,7 @@ header section a {
 
 .previousButton {
   left: 0;
+  margin-left: 10px;
   -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
   transform: rotate(180deg) translateY(calc(50% + 0px));
 }
@@ -181,7 +184,8 @@ header section a {
 }
 
 .nextButton {
-  right: 0;
+  right: 0px;
+  margin-right: 10px;
 }
 
 .nextButton:hover {

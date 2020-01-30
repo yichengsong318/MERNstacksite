@@ -58,7 +58,9 @@ const HomePage = () => {
   ];
   return (
     <div style={{ height: "100%" }}>
-      <HomeHeader />
+      <div style={{ height: "7vh" }}>
+        <HomeHeader />
+      </div>
       <div style={{}}>
         <Slider className="slider-wrapper" infinite={true} autoplay={2000}>
           {content.map((item, index) => (

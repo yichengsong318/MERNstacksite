@@ -4,15 +4,13 @@
 //   background-repeat: no-repeat;
 //   background-position: center;
 // }
-.navbar-default {
-  background: none;
-}
+
 .navbar a {
   color: black !important;
 
-  &:hover {
-    color: #2d77a9;
-  }
+  // &:hover {
+  //   color: #2d77a9;
+  // }
 }
 
 a:hover {

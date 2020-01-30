@@ -2,7 +2,12 @@ import React from "react";
 import "./footer.styles.scss";
 
 const Footer = () => {
-  if (window.location.pathname === "/") return null;
+  if (
+    window.location.pathname === "/" ||
+    window.location.pathname === "/home" ||
+    window.location.pathname === "/home/"
+  )
+    return null;
   return (
     <footer class="footer">
       <span>Site built by{"\t"}</span>
