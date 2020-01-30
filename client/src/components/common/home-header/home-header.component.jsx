@@ -6,7 +6,7 @@ export default class HomeHeader extends Component {
   render() {
     return (
       <div style={{}}>
-        <Navbar collapseOnSelect expand="lg" className="navbar-inner home-head">
+        <Navbar collapseOnSelect expand="lg" className="navbar-inner">
           <Navbar.Brand href="/home">
             <i class="fas fa-home"></i>
           </Navbar.Brand>
