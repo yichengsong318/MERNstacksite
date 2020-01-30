@@ -6,6 +6,7 @@ export default class Header extends Component {
   render() {
     if (
       window.location.pathname === "/" ||
+      window.location.pathname === "/home/" ||
       window.location.pathname === "/home"
     )
       return null;
