@@ -19,10 +19,19 @@
 .message-us {
   // background-color: black;
   max-width: 600px;
-  border-bottom: 2px solid;
+  // border-bottom: 2px solid;
   padding-bottom: 30px;
   max-width: 310px;
 
   margin: 0 auto;
   margin-top: 50px;
+}
+
+.contact-list {
+  margin: 0 auto;
+}
+@media only screen and (max-width: 340px) {
+  .contact-list {
+    font-size: 13px;
+  }
 }
