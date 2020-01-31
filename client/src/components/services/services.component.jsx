@@ -5,7 +5,7 @@ import "./services.styles.scss";
 const Services = () => {
   return (
     <div className="services-container">
-      <Card className="menu-item" style={{}}>
+      <Card className="menu-item">
         <Card.Img
           className="background-image"
           variant="top"
@@ -27,7 +27,7 @@ const Services = () => {
         />
         <Card.Body style={{}}>
           <Card.Title>Property Management</Card.Title>
-          <Card.Text>
+          <Card.Text style={{ minHeight: "300" }}>
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
