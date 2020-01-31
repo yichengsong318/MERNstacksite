@@ -1,22 +1,18 @@
-// .home-logo {
-//   background: url("../../assets/logo1.png");
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   background-position: center;
-// }
-
 .navbar a {
   color: black !important;
-
-  &:hover {
-    color: #2d77a9;
-  }
 }
 
-a:hover {
+nav:hover {
   color: #008700 !important;
+}
+
+.navbar-inner {
+  background: transparent;
 }
 
 .navbar-nav > li > .dropdown-menu {
   background-color: #ff0000;
+}
+.logo-home {
+  max-width: 110px;
 }

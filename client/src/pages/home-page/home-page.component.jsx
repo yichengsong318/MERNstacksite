@@ -4,7 +4,6 @@ import "./home-page.styles.scss";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import "./slider.styles..scss";
-import HomeHeader from "../../components/common/home-header/home-header.component";
 // import logo from "../../assets/logo1.png";
 import { Button } from "react-bootstrap";
 // import ContactForm from "../../components/contact-form/contact-form.component";
@@ -58,9 +57,7 @@ const HomePage = () => {
   ];
   return (
     <div style={{ height: "100%" }}>
-      <div style={{}}>
-        <HomeHeader />
-      </div>
+      <div style={{}}></div>
       <div style={{}}>
         <Slider className="slider-wrapper" infinite={true} autoplay={2000}>
           {content.map((item, index) => (
