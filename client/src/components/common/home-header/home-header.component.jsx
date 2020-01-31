@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "./home-header.styles.scss";
+import logo from "../../../assets/logo1.png";
 
 export default class HomeHeader extends Component {
   render() {
@@ -8,7 +9,10 @@ export default class HomeHeader extends Component {
       <div style={{}}>
         <Navbar collapseOnSelect expand="lg" className="navbar-inner navbar">
           <Navbar.Brand href="/home">
-            <i class="fas fa-home"></i>
+            <div style={{}}>
+              {" "}
+              <img src={logo} className="logo-home" />
+            </div>
           </Navbar.Brand>
           <NavDropdown
             title="Services"
