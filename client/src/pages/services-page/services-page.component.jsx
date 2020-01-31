@@ -1,12 +1,17 @@
 import React from "react";
 import "./services-pages.styles.scss";
-import ImageCard from "../../components/common/image-card/image-card.component";
+import { landscapingPic } from "../../assets/landscaping-service.jpg";
+import Fade from "react-reveal/Fade";
 
 const ServicePage = () => {
   return (
     <div>
-      <span>Services</span>
-      <ImageCard />
+      <Fade left>
+        <div>
+          <span className="ba-title">Services</span>
+        </div>
+      </Fade>
+      <div className="row"></div>
     </div>
   );
 };

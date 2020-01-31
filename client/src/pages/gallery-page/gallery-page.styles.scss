@@ -1,21 +1,16 @@
-.ba-pics{
-    width: 300px
-
-
+.ba-pics {
+  width: 300px;
 }
 
-.ba-container{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
- 
-
-
+.ba-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.ba-title{
-    color: black;
-     font-weight: bold;
-     font-size: 30px;
-     margin-top: 20;
+.ba-title {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
 }
