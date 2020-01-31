@@ -9,7 +9,7 @@ const Footer = () => {
   )
     return null;
   return (
-    <footer class="footer">
+    <footer className="footer">
       <span>Site built by{"\t"}</span>
       <a href="http://www.christiangracia.com">christiangracia.com</a>{" "}
       <i

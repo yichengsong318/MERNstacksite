@@ -1,7 +1,8 @@
 import React from "react";
 import "./services-pages.styles.scss";
-import { landscapingPic } from "../../assets/landscaping-service.jpg";
+
 import Fade from "react-reveal/Fade";
+import Services from "../../components/services/services.component";
 
 const ServicePage = () => {
   return (
@@ -11,7 +12,7 @@ const ServicePage = () => {
           <span className="ba-title">Services</span>
         </div>
       </Fade>
-      <div className="row"></div>
+      <Services />
     </div>
   );
 };

@@ -11,17 +11,18 @@ import hero from "../../assets/hero.jpg";
 
 const AboutPage = () => (
   <div style={{ justifyContent: "center", alignItems: "center" }}>
-    <p
-      style={{
-        color: "black",
-        fontWeight: "bold",
-        fontSize: 30,
-        marginTop: 20
-      }}
-    >
-      About Us
-    </p>
-
+    <Fade left>
+      <p
+        style={{
+          color: "black",
+          fontWeight: "bold",
+          fontSize: 30,
+          marginTop: 20
+        }}
+      >
+        About Us
+      </p>
+    </Fade>
     <div
       style={{
         display: "flex",
@@ -34,7 +35,7 @@ const AboutPage = () => (
         textAlign: "center"
       }}
     >
-      <Fade left>
+      <Fade top>
         <span style={{ marginBottom: 20 }}>
           "We don't cut corners, just wood."
         </span>

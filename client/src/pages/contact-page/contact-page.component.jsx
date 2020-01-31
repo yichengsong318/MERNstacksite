@@ -7,10 +7,12 @@ import Flip from "react-reveal/Flip";
 const ContactPage = () => {
   return (
     <div className="contact-page-container" style={{}}>
-      <p className="contact-header">Contact Us</p>
+      <Fade left>
+        <p className="contact-header">Contact Us</p>
+      </Fade>
       <div style={{ padding: 10 }}></div>
       <div className="message-us">
-        <Fade left>
+        <Fade top>
           <div style={{}}>
             <span className="send-us-email">Send us an email...</span>
           </div>
