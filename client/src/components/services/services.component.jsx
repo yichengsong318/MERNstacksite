@@ -14,7 +14,10 @@ const Services = () => {
             src={require("../../assets/landscaping-service.jpg")}
           />
           <Card.Body>
-            <Card.Title>Full Landscaping Services</Card.Title>
+            <Card.Title>
+              Full Landscaping Services{" "}
+              <i class="fas fa-leaf" style={{ color: "green" }}></i>
+            </Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -28,7 +31,10 @@ const Services = () => {
             src={require("../../assets/landscaping-service.jpg")}
           />
           <Card.Body style={{}}>
-            <Card.Title>Property Management</Card.Title>
+            <Card.Title>
+              Property Management{" "}
+              <i class="fas fa-circle-notch" style={{ color: "red" }}></i>
+            </Card.Title>
             <Card.Text style={{ minHeight: "300" }}>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -43,7 +49,10 @@ const Services = () => {
             src={require("../../assets/landscaping-service.jpg")}
           />
           <Card.Body>
-            <Card.Title className="title">Snow Removal</Card.Title>
+            <Card.Title className="title">
+              Snow Removal{" "}
+              <i class="far fa-snowflake" style={{ color: "#A5F2F3" }}></i>
+            </Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -113,7 +122,10 @@ const Services = () => {
             src={require("../../assets/landscaping-service.jpg")}
           />
           <Card.Body>
-            <Card.Title>Irrigation</Card.Title>
+            <Card.Title>
+              Irrigation{" "}
+              <i class="fas fa-eye-dropper" style={{ color: "blue" }}></i>
+            </Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
