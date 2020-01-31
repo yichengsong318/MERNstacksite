@@ -10,6 +10,7 @@ import HomePage from "./pages/home-page/home-page.component";
 import GalleryPage from "./pages/gallery-page/gallery-page.component";
 import ContactPage from "./pages/contact-page/contact-page.component";
 
+import ServicesPage from "./pages/services-page/services-page.component";
 import Header from "./components/header/header.component";
 import Footer from "./components/common/footer/footer.component";
 
@@ -23,11 +24,12 @@ function App() {
       <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/home" component={HomePage} />
-        <Route exact path="/login" component={LoginPage} />
-        {/* <Route exact path="/register" component={RegisterPage} /> */}
+        <Route exact path="/services" component={ServicesPage} />
         <Route exact path="/contact" component={ContactPage} />
         <Route exact path="/about" component={AboutPage} />
         <Route exact path="/gallery" component={GalleryPage} />
+        <Route exact path="/login" component={LoginPage} />
+        {/* <Route exact path="/register" component={RegisterPage} /> */}
       </Switch>
       {/* for local */}
       {/* <Route exact path="/dashboard" component={DashboardPage} /> */}
