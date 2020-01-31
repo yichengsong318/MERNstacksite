@@ -66,7 +66,10 @@ const Services = () => {
             src={require("../../assets/landscaping-service.jpg")}
           />
           <Card.Body>
-            <Card.Title>Trash Removal</Card.Title>
+            <Card.Title>
+              Trash Removal{" "}
+              <i class="fas fa-trash-alt" style={{ color: "#77584C" }}></i>
+            </Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -80,7 +83,10 @@ const Services = () => {
             src={require("../../assets/landscaping-service.jpg")}
           />
           <Card.Body>
-            <Card.Title>Bobcat Services</Card.Title>
+            <Card.Title>
+              Bobcat Services{" "}
+              <i class="fas fa-truck-loading" style={{ color: "#F8D200" }}></i>{" "}
+            </Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -94,7 +100,10 @@ const Services = () => {
             src={require("../../assets/landscaping-service.jpg")}
           />
           <Card.Body>
-            <Card.Title>Power Washing</Card.Title>
+            <Card.Title>
+              Power Washing{" "}
+              <i class="fas fa-bath" style={{ color: "#C2C5CC" }}></i>
+            </Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -108,7 +117,9 @@ const Services = () => {
             src={require("../../assets/landscaping-service.jpg")}
           />
           <Card.Body>
-            <Card.Title>Consulting</Card.Title>
+            <Card.Title>
+              Consulting <i class="fas fa-user-ninja"></i>
+            </Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -139,7 +150,17 @@ const Services = () => {
             src={require("../../assets/landscaping-service.jpg")}
           />
           <Card.Body>
-            <Card.Title>Fencing</Card.Title>
+            <Card.Title>
+              Fencing{" "}
+              <i
+                class="fas fa-grip-lines-vertical"
+                style={{ color: "#C99E7D" }}
+              ></i>
+              <i
+                class="fas fa-grip-lines-vertical"
+                style={{ color: "#C99E7D" }}
+              ></i>
+            </Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -153,7 +174,10 @@ const Services = () => {
             src={require("../../assets/landscaping-service.jpg")}
           />
           <Card.Body>
-            <Card.Title>Home Improvement</Card.Title>
+            <Card.Title>
+              Home Improvement{" "}
+              <i class="fas fa-hammer" style={{ color: "#848589" }}></i>
+            </Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
