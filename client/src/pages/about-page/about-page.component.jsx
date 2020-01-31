@@ -8,6 +8,7 @@ import RubberBand from "react-reveal/RubberBand";
 import LightSpeed from "react-reveal/LightSpeed";
 import ContactEmail from "../../components/common/contact-email/contact-email.component";
 import hero from "../../assets/hero.jpg";
+import { Card } from "react-bootstrap";
 
 const AboutPage = () => (
   <div style={{ justifyContent: "center", alignItems: "center" }}>
@@ -47,27 +48,31 @@ const AboutPage = () => (
         </div>
       </Fade>
 
-      <Fade top cascade>
-        <div style={{ display: "flex", marginTop: 24 }}>
-          <p className="about-text">
-            At Nature's Frontier Landscaping, our goal is to cater to all of our
-            customers household needs.
-          </p>
-        </div>
-        <div style={{ display: "flex" }}>
-          <p className="about-text">
-            Everything from landscaping to moving a couch. We want to make YOU
-            the customer's life simpler and effortless.
-          </p>
-        </div>{" "}
-        <div style={{ display: "flex" }}>
+      <Card style={{ marginTop: 30 }}>
+        <Fade top cascade>
+          <Card.Body>
+            <blockquote className="blockquote mb-0">
+              <p>
+                At Nature's Frontier Landscaping, our goal is to cater to all of
+                our customers household needs.
+              </p>{" "}
+              <p>
+                Everything from landscaping to moving a couch. We want to make
+                YOU the customer's life simpler and effortless.
+              </p>
+              <footer className="blockquote-footer">
+                <p>Founder</p>
+              </footer>
+            </blockquote>
+          </Card.Body>
+        </Fade>
+      </Card>
+      <LightSpeed top cascade>
+        <div style={{ display: "flex", marginTop: 30 }}>
           <p className="about-text">
             We do residential, commercial, and state work.
           </p>
         </div>
-      </Fade>
-      <LightSpeed top cascade>
-        <p>- Founder</p>
       </LightSpeed>
       <div style={{ paddingBottom: 200 }}></div>
     </div>
