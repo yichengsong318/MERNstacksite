@@ -18,10 +18,7 @@ const Services = () => {
               Full Landscaping Services{" "}
               <i class="fas fa-leaf" style={{ color: "green" }}></i>
             </Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
         <Card className="menu-item" style={{}}>
@@ -35,10 +32,7 @@ const Services = () => {
               Property Management{" "}
               <i class="fas fa-circle-notch" style={{ color: "red" }}></i>
             </Card.Title>
-            <Card.Text style={{ minHeight: "300" }}>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Text style={{ minHeight: "300" }}></Card.Text>
           </Card.Body>
         </Card>
 
@@ -53,10 +47,7 @@ const Services = () => {
               Snow Removal{" "}
               <i class="far fa-snowflake" style={{ color: "#A5F2F3" }}></i>
             </Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
         <Card className="menu-item" style={{}}>
@@ -70,10 +61,7 @@ const Services = () => {
               Trash Removal{" "}
               <i class="fas fa-trash-alt" style={{ color: "#77584C" }}></i>
             </Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
         <Card className="menu-item" style={{}}>
@@ -87,67 +75,55 @@ const Services = () => {
               Bobcat Services{" "}
               <i class="fas fa-truck-loading" style={{ color: "#F8D200" }}></i>{" "}
             </Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
         <Card className="menu-item" style={{}}>
           <Card.Img
             className="background-image"
             variant="top"
-            src={require("../../assets/landscaping-service.jpg")}
+            src={require("../../assets/powerwashing.jpg")}
           />
           <Card.Body>
             <Card.Title>
               Power Washing{" "}
               <i class="fas fa-bath" style={{ color: "#C2C5CC" }}></i>
             </Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
         <Card className="menu-item" style={{}}>
           <Card.Img
             className="background-image"
             variant="top"
-            src={require("../../assets/landscaping-service.jpg")}
+            src={require("../../assets/consulting.jpg")}
           />
           <Card.Body>
             <Card.Title>
               Consulting <i class="fas fa-user-ninja"></i>
             </Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
         <Card className="menu-item" style={{}}>
           <Card.Img
             className="background-image"
             variant="top"
-            src={require("../../assets/landscaping-service.jpg")}
+            src={require("../../assets/irrigation.jpg")}
           />
           <Card.Body>
             <Card.Title>
               Irrigation{" "}
               <i class="fas fa-eye-dropper" style={{ color: "blue" }}></i>
             </Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
         <Card className="menu-item" style={{}}>
           <Card.Img
             className="background-image"
             variant="top"
-            src={require("../../assets/landscaping-service.jpg")}
+            src={require("../../assets/fencing.jpg")}
           />
           <Card.Body>
             <Card.Title>
@@ -161,27 +137,21 @@ const Services = () => {
                 style={{ color: "#C99E7D" }}
               ></i>
             </Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
         <Card className="menu-item" style={{}}>
           <Card.Img
             className="background-image"
             variant="top"
-            src={require("../../assets/landscaping-service.jpg")}
+            src={require("../../assets/home-improvement.jpeg")}
           />
           <Card.Body>
             <Card.Title>
               Home Improvement{" "}
               <i class="fas fa-hammer" style={{ color: "#848589" }}></i>
             </Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
       </div>
