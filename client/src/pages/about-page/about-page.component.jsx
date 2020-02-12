@@ -70,7 +70,7 @@ const AboutPage = () => (
       <LightSpeed top cascade>
         <div style={{ display: "flex", marginTop: 30 }}>
           <p className="about-text">
-            We do residential, commercial, and state work.
+            We do Residential, Commercial, and State work.
           </p>
         </div>
       </LightSpeed>

@@ -28,29 +28,26 @@ const HomePage = () => {
       image: image1
     },
     {
-      title: "Want something done right?",
+      title: "OVER 10 YEARS OF EXCELLENCE",
       description: "Any type of job... We have you covered",
 
       image: image2
     },
     {
-      title: "Property Maintenance",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. modo luctus, nisi erat porttitor ligula.",
+      title: "Making RI and MA greener one landscape at a time",
+      description: "",
 
       image: image3
     },
     {
-      title: "Snow Removal",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis condo itor ligula.",
+      title: "Providing residential and commercial services",
+      description: "",
 
       image: image4
     },
     {
-      title: "Lawn Care",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis condo itor ligula.",
+      title: "Do your dream project today",
+      description: "",
 
       image: image5
     }
@@ -69,8 +66,10 @@ const HomePage = () => {
               }}
             >
               <div className="inner">
-                <h1>{item.title}</h1>
-                <p>{item.description}</p>
+                <div style={{ marginRight: 20 }}>
+                  <h1>{item.title}</h1>
+                  <p>{item.description}</p>
+                </div>
                 <div>
                   <Button variant="light">
                     <a
