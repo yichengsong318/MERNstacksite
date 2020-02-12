@@ -11,6 +11,20 @@ const Services = () => {
           <Card.Img
             className="background-image"
             variant="top"
+            src={require("../../assets/demolition.jpg")}
+          />
+          <Card.Body>
+            <Card.Title>
+              Demolition{" "}
+              <i class="fas fa-house-damage" style={{ color: "black" }}></i>
+            </Card.Title>
+            <Card.Text></Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="menu-item">
+          <Card.Img
+            className="background-image"
+            variant="top"
             src={require("../../assets/landscaping-service.jpg")}
           />
           <Card.Body>
@@ -25,12 +39,15 @@ const Services = () => {
           <Card.Img
             className="background-image"
             variant="top"
-            src={require("../../assets/landscaping-service.jpg")}
+            src={require("../../assets/property-management.jpg")}
           />
           <Card.Body style={{}}>
             <Card.Title>
               Property Management{" "}
-              <i class="fas fa-circle-notch" style={{ color: "red" }}></i>
+              <i
+                class="fas fa-circle-notch fa-spin"
+                style={{ color: "red" }}
+              ></i>
             </Card.Title>
             <Card.Text style={{ minHeight: "300" }}></Card.Text>
           </Card.Body>
@@ -40,7 +57,7 @@ const Services = () => {
           <Card.Img
             className="background-image"
             variant="top"
-            src={require("../../assets/landscaping-service.jpg")}
+            src={require("../../assets/snow-removal.jpg")}
           />
           <Card.Body>
             <Card.Title className="title">
@@ -54,11 +71,11 @@ const Services = () => {
           <Card.Img
             className="background-image"
             variant="top"
-            src={require("../../assets/landscaping-service.jpg")}
+            src={require("../../assets/trash.jpg")}
           />
           <Card.Body>
             <Card.Title>
-              Trash Removal{" "}
+              Trash Removal / Estate Cleanout{" "}
               <i class="fas fa-trash-alt" style={{ color: "#77584C" }}></i>
             </Card.Title>
             <Card.Text></Card.Text>
@@ -68,7 +85,7 @@ const Services = () => {
           <Card.Img
             className="background-image"
             variant="top"
-            src={require("../../assets/landscaping-service.jpg")}
+            src={require("../../assets/bobcat.jpg")}
           />
           <Card.Body>
             <Card.Title>
