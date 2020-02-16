@@ -20,6 +20,15 @@ const GalleryPage = () => (
       <p className="ba-title">Before & After</p>
     </Fade>
     <div className="ba-container">
+      <div>
+        <span style={{ marginLeft: 0 }}>Landscaping</span>
+      </div>
+      <div>
+        <span style={{ marginLeft: 0 }}>Landscaping</span>
+      </div>
+      <div>
+        <span style={{ marginLeft: 0 }}>Landscaping</span>
+      </div>
       {/* <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
                 <img src={pic1} className="ba-pics" />
             </LazyLoad>

@@ -6,6 +6,7 @@ import "react-animated-slider/build/horizontal.css";
 import "./slider.styles..scss";
 // import logo from "../../assets/logo1.png";
 import { Button } from "react-bootstrap";
+import { Wave } from "react-animated-text";
 // import ContactForm from "../../components/contact-form/contact-form.component";
 // import Fade from "react-reveal/Fade";
 // import WhatWeDo from "../../components/what-we-do/what-we-do.component";
@@ -28,8 +29,8 @@ const HomePage = () => {
       image: image1
     },
     {
-      title: "OVER 10 YEARS OF EXCELLENCE",
-      description: "Any type of job... We have you covered",
+      title: "Job big or small, we got you covered",
+      description: "",
 
       image: image2
     },
@@ -40,13 +41,13 @@ const HomePage = () => {
       image: image3
     },
     {
-      title: "Providing residential and commercial services",
+      title: "Providing Residential and Commercial Services",
       description: "",
 
       image: image4
     },
     {
-      title: "Do your dream project today",
+      title: "Build your dream project today",
       description: "",
 
       image: image5
@@ -91,6 +92,19 @@ const HomePage = () => {
                       Free Estimate
                     </a>
                   </Button>
+                  <div
+                    style={{
+                      color: "white",
+                      marginTop: "10vh",
+                      fontSize: 25
+                    }}
+                  >
+                    <Wave
+                      text="0% In-house Financing Available"
+                      effect="stretch"
+                      effectChange={1.2}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
