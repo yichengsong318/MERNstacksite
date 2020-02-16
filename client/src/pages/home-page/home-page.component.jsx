@@ -95,18 +95,18 @@ const HomePage = () => {
                   <div style={{}}>
                     <div className="finance-text" style={{ marginTop: "10vh" }}>
                       <Wave
-                        text="0% In-house Financing"
+                        text="0% In-house Financing Available"
                         effect="stretch"
                         effectChange={1.2}
                       />
                     </div>
-                    <div className="finance-text">
+                    {/* <div className="finance-text">
                       <Wave
                         text="Available"
                         effect="stretch"
                         effectChange={1.2}
                       />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
