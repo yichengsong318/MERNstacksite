@@ -41,7 +41,7 @@ const HomePage = () => {
       image: image3
     },
     {
-      title: "Providing Residential and Commercial Services",
+      title: "Providing Residential, State, and Commercial Services",
       description: "",
 
       image: image4

@@ -33,12 +33,15 @@ const AboutPage = () => (
         padding: 30,
         color: "black",
         fontSize: 20,
-        textAlign: "center"
+        textAlign: "center",
+        backgroundColor: "#2D77A9",
+        width: "80vw",
+        margin: "0 auto"
       }}
     >
       <Fade top>
-        <span style={{ marginBottom: 20 }}>
-          "We don't cut corners, just wood."
+        <span style={{ marginBottom: 20, color: "white", fontSize: 22 }}>
+          "We Don't Cut Corners, Just Wood."
         </span>
       </Fade>
 
