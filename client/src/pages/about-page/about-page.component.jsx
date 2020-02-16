@@ -35,13 +35,14 @@ const AboutPage = () => (
         fontSize: 20,
         textAlign: "center",
         backgroundColor: "#2D77A9",
-        width: "80vw",
+        width: "95vw",
+        maxWidth: 1000,
         margin: "0 auto"
       }}
     >
       <Fade top>
-        <span style={{ marginBottom: 20, color: "white", fontSize: 22 }}>
-          "We Don't Cut Corners, Just Wood."
+        <span style={{ marginBottom: 20, color: "white" }}>
+          "We don't cut corners, just wood."
         </span>
       </Fade>
 
@@ -77,11 +78,11 @@ const AboutPage = () => (
           </p>
         </div>
       </LightSpeed>
-      <div style={{ paddingBottom: 200 }}></div>
     </div>
     {/* <div>
       <Signature />
     </div> */}
+    <div style={{ paddingBottom: 200 }}></div>
   </div>
 );
 export default AboutPage;

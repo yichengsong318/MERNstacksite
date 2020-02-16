@@ -38,7 +38,7 @@ export default class Header extends Component {
                 justifyContent: "center"
               }}
             >
-              <Nav.Link href="https://www.facebook.com/Natures-View-Landscaping-131440330221618/">
+              <Nav.Link href="">
                 <i className="fab fa-facebook" style={{ fontSize: 20 }}></i>
               </Nav.Link>
               <div style={{ padding: 5 }}></div>

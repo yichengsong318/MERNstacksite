@@ -29,13 +29,13 @@ const HomePage = () => {
       image: image1
     },
     {
-      title: "Job big or small, we got you covered",
+      title: "Job Big or Small, We Got You Covered",
       description: "",
 
       image: image2
     },
     {
-      title: "Making RI and MA greener one landscape at a time",
+      title: "Making RI and MA Greener One Landscape at a Time",
       description: "",
 
       image: image3
@@ -47,7 +47,7 @@ const HomePage = () => {
       image: image4
     },
     {
-      title: "Build your dream project today",
+      title: "Build Your Dream Project Today",
       description: "",
 
       image: image5
