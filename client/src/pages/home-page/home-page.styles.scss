@@ -1,67 +1,25 @@
-// .logo-home {
-//   width: 70vw;
-//   max-height: 15vh;
-//   margin-top: 7vh;
-// }
-// @media screen and (min-width: 900px) {
-//   .logo-home {
-//     max-width: 20vw;
-//     margin-top: 7vh;
-//   }
-// }
-// .containerContact {
-//   display: flex;
-//   flex-direction: column;
+.finance-text {
+  color: white;
+  font-size: 25px;
+  // display: flex;
+  justify-content: center;
+  // width: 100vw;
+  margin: 0 auto;
+  // margin-top: 10vh;
+}
+@media screen and (max-width: 400px) {
+  .finance-text {
+    font-size: 20px;
+  }
+}
 
-//   color: black;
-//   background-color: white;
-//   max-width: 310px;
-//   margin: 0 auto;
-//   margin-top: 5vh;
-//   padding: 3px;
-//   border: 2px solid;
-//   // border-radius: 29px;
-// }
-// .home-container {
-//   background: url("../../assets/homeBackground.jpeg");
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   height: 100vh;
-//   width: auto;
-//   background-color: transparent;
-// }
 .button-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   // margin-top: 5vh;
 }
-// .message-header {
-//   font-size: 30px;
-//   color: white;
-//   margin-top: 40px;
-// }
-// .slide-title {
-//   margin: 0 auto;
-//   font-size: bold;
-//   color: white;
-//   font-size: 40px;
-//   padding: 20px;
-//   // background-color: rgb(52, 58, 64);
-//   width: auto;
-//   max-width: 300px;
-//   // border-radius: 19px;
-// }
-// .what-we-do-header {
-//   font-size: 40px;
-//   font-weight: bold;
-// }
-// .what-we-do-sub-head {
-//   font-size: 16px;
-//   font-weight: bold;
-//   color: grey;
-// }
+
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
 
 .contact-button {

@@ -92,18 +92,21 @@ const HomePage = () => {
                       Free Estimate
                     </a>
                   </Button>
-                  <div
-                    style={{
-                      color: "white",
-                      marginTop: "10vh",
-                      fontSize: 25
-                    }}
-                  >
-                    <Wave
-                      text="0% In-house Financing Available"
-                      effect="stretch"
-                      effectChange={1.2}
-                    />
+                  <div style={{}}>
+                    <div className="finance-text" style={{ marginTop: "10vh" }}>
+                      <Wave
+                        text="0% In-house Financing"
+                        effect="stretch"
+                        effectChange={1.2}
+                      />
+                    </div>
+                    <div className="finance-text">
+                      <Wave
+                        text="Available"
+                        effect="stretch"
+                        effectChange={1.2}
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
