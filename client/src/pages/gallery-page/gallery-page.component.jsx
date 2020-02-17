@@ -23,12 +23,22 @@ import pic19 from "../../assets/gallery/gallery12.PNG";
 import pic20 from "../../assets/gallery/gallery13.JPG";
 import pic21 from "../../assets/gallery/gallery14.JPG";
 
-import pic22 from "../../assets/gallery/gallery10.JPG";
-import pic23 from "../../assets/gallery/gallery11.JPG";
-import pic24 from "../../assets/gallery/gallery11.PNG";
-import pic25 from "../../assets/gallery/gallery12.PNG";
-import pic26 from "../../assets/gallery/gallery13.JPG";
-import pic27 from "../../assets/gallery/gallery14.JPG";
+import pic22 from "../../assets/gallery/gallery15.JPG";
+import pic23 from "../../assets/gallery/gallery16.JPG";
+import pic24 from "../../assets/gallery/gallery17.JPG";
+import pic25 from "../../assets/gallery/gallery18.JPG";
+// import pic26 from "../../assets/gallery/gallery19.JPG";
+import pic27 from "../../assets/gallery/gallery20.JPG";
+
+import pic28 from "../../assets/gallery/gallery21.JPG";
+import pic29 from "../../assets/gallery/gallery22.JPG";
+import pic30 from "../../assets/gallery/gallery23.JPG";
+import pic31 from "../../assets/gallery/gallery24.jpeg";
+import pic32 from "../../assets/gallery/gallery25.JPG";
+import pic33 from "../../assets/gallery/gallery34.jpeg";
+
+import pic34 from "../../assets/gallery/gallery35.JPG";
+import pic35 from "../../assets/gallery/gallery36.PNG";
 
 import Fade from "react-reveal/Fade";
 import LazyLoad from "react-lazyload";
