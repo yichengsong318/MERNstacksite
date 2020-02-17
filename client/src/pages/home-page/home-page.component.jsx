@@ -29,7 +29,7 @@ const HomePage = () => {
       image: image1
     },
     {
-      title: "Job Big or Small, We Got You Covered",
+      title: "Jobs Big or Small, We Got You Covered",
       description: "",
 
       image: image2
@@ -67,7 +67,7 @@ const HomePage = () => {
               }}
             >
               <div className="inner">
-                <div style={{ marginRight: 20 }}>
+                <div style={{}}>
                   <h1>{item.title}</h1>
                   <p>{item.description}</p>
                 </div>
