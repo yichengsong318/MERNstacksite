@@ -8,6 +8,28 @@ import pic6 from "../../assets/gallery/gallery3.JPG";
 import pic7 from "../../assets/gallery/gallery4.JPG";
 import pic8 from "../../assets/gallery/gallery4a.JPG";
 import pic9 from "../../assets/gallery/gallery5.JPG";
+
+import pic10 from "../../assets/gallery/gallery6.JPG";
+import pic11 from "../../assets/gallery/gallery6a.JPG";
+import pic12 from "../../assets/gallery/gallery6aa.JPG";
+import pic13 from "../../assets/gallery/gallery7.JPG";
+import pic14 from "../../assets/gallery/gallery8.JPG";
+import pic15 from "../../assets/gallery/gallery9.JPG";
+
+import pic16 from "../../assets/gallery/gallery10.JPG";
+import pic17 from "../../assets/gallery/gallery11.JPG";
+import pic18 from "../../assets/gallery/gallery11.PNG";
+import pic19 from "../../assets/gallery/gallery12.PNG";
+import pic20 from "../../assets/gallery/gallery13.JPG";
+import pic21 from "../../assets/gallery/gallery14.JPG";
+
+import pic22 from "../../assets/gallery/gallery10.JPG";
+import pic23 from "../../assets/gallery/gallery11.JPG";
+import pic24 from "../../assets/gallery/gallery11.PNG";
+import pic25 from "../../assets/gallery/gallery12.PNG";
+import pic26 from "../../assets/gallery/gallery13.JPG";
+import pic27 from "../../assets/gallery/gallery14.JPG";
+
 import Fade from "react-reveal/Fade";
 import LazyLoad from "react-lazyload";
 import Spinner from "../../components/common/spinner/spinner.component";
