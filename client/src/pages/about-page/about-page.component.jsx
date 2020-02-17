@@ -18,7 +18,8 @@ const AboutPage = () => (
           color: "black",
           fontWeight: "bold",
           fontSize: 30,
-          marginTop: 20
+          marginTop: 20,
+          marginBottom: 40
         }}
       >
         About Us
@@ -37,7 +38,8 @@ const AboutPage = () => (
         backgroundColor: "#2D77A9",
         width: "95vw",
         maxWidth: 1000,
-        margin: "0 auto"
+        margin: "0 auto",
+        borderRadius: 19
       }}
     >
       <Fade top>
