@@ -74,6 +74,7 @@ const ContactPage = () => {
           frameborder="0"
           allowfullscreen=""
         ></iframe>
+        <div style={{ paddingBottom: 100 }}></div>
       </div>
       <div style={{ paddingBottom: 200 }}></div>
     </div>
