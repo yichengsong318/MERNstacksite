@@ -15,7 +15,11 @@ const ContactPage = () => {
       <Fade top>
         <Card
           className="contact-list"
-          style={{ width: "25rem", maxWidth: "90vw" }}
+          style={{
+            width: "25rem",
+            maxWidth: "90vw",
+            backgroundColor: "#2D77A9"
+          }}
         >
           <ListGroup variant="flush">
             <ListGroup.Item>
@@ -43,7 +47,7 @@ const ContactPage = () => {
       <Flip left>
         <div style={{ marginTop: 80 }}>
           <span className="send-us-email" style={{}}>
-            Or leave us a message here!
+            Leave us a message for a free estimate!
           </span>
         </div>
       </Flip>
