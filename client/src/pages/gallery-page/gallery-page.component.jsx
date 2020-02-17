@@ -79,6 +79,88 @@ const GalleryPage = () => (
       <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
         <img src={pic9} className="ba-pics" />
       </LazyLoad>
+
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic10} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic11} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic12} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic13} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic14} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic15} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic16} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic17} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic18} className="ba-pics" />
+      </LazyLoad>
+
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic19} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic20} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic21} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic22} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic23} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic24} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic25} className="ba-pics" />
+      </LazyLoad>
+      {/* <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic26} className="ba-pics" />
+      </LazyLoad> */}
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic27} className="ba-pics" />
+      </LazyLoad>
+
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic28} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic29} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic30} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic31} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic32} className="ba-pics" />
+      </LazyLoad>
+      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic33} className="ba-pics" />
+      </LazyLoad>
+      {/* <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic34} className="ba-pics" />
+      </LazyLoad> */}
+      {/* <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+        <img src={pic35} className="ba-pics" />
+      </LazyLoad> */}
+
       <div style={{ paddingBottom: 1000 }}></div>
     </div>
   </div>
