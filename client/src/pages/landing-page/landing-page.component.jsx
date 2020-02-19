@@ -3,9 +3,7 @@ import logo from "../../assets/logo.png";
 import "./landing-page.styles.scss";
 
 import { Wave } from "react-animated-text";
-import JoinEmailList from "../../components/join-email-list/join-email-list.component";
-import Bounce from "react-reveal/Bounce";
-import LazyLoad from "react-lazyload";
+
 import { Button } from "react-bootstrap";
 
 const LandingPage = () => (

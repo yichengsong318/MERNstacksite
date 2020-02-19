@@ -75,7 +75,9 @@ const ContactForm = () => {
           />
         </Form.Group>
 
-        <Button type="submit">Submit form</Button>
+        <Button type="submit" className="btn-danger">
+          Submit form
+        </Button>
       </Form>
     </div>
   );
