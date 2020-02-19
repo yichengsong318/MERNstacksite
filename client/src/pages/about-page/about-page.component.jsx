@@ -2,11 +2,8 @@ import React from "react";
 
 import "./about-page.styles.scss";
 import Fade from "react-reveal/Fade";
-import Pulse from "react-reveal/Pulse";
-import Zoom from "react-reveal/Zoom";
-import RubberBand from "react-reveal/RubberBand";
+
 import LightSpeed from "react-reveal/LightSpeed";
-import ContactEmail from "../../components/common/contact-email/contact-email.component";
 import hero from "../../assets/hero.jpg";
 import { Card } from "react-bootstrap";
 
@@ -81,9 +78,6 @@ const AboutPage = () => (
         </div>
       </LightSpeed>
     </div>
-    {/* <div>
-      <Signature />
-    </div> */}
     <div style={{ paddingBottom: 200 }}></div>
   </div>
 );
