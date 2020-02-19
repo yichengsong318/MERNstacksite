@@ -37,8 +37,8 @@ import pic31 from "../../assets/gallery/gallery24.jpeg";
 import pic32 from "../../assets/gallery/gallery25.JPG";
 import pic33 from "../../assets/gallery/gallery34.jpeg";
 
-import pic34 from "../../assets/gallery/gallery35.JPG";
-import pic35 from "../../assets/gallery/gallery36.PNG";
+// import pic34 from "../../assets/gallery/gallery35.JPG";
+// import pic35 from "../../assets/gallery/gallery36.PNG";
 
 import Fade from "react-reveal/Fade";
 import LazyLoad from "react-lazyload";

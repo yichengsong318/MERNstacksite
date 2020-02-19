@@ -1,9 +1,6 @@
 import React from "react";
-import logo from "../../assets/logo.png";
+
 import "./landing-page.styles.scss";
-
-import { Wave } from "react-animated-text";
-
 import { Button } from "react-bootstrap";
 
 const LandingPage = () => (

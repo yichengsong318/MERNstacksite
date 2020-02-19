@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Form, Label, Row, Col, InputGroup, Button } from "react-bootstrap";
+import { Form, Col, Button } from "react-bootstrap";
 import LightSpeed from "react-reveal/LightSpeed";
 import "./contact-form.styles.scss";
 

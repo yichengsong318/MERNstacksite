@@ -1,16 +1,10 @@
 import React, { Component } from "react";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import "./header.styles.scss";
 import logo from "../../assets/logo1.png";
 
 export default class Header extends Component {
   render() {
-    // if (
-    //   window.location.pathname === "/" ||
-    //   window.location.pathname === "/home/" ||
-    //   window.location.pathname === "/home"
-    // )
-
     if (window.location.pathname === "/") return null;
     return (
       <div style={{}}>
