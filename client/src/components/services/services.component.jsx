@@ -49,7 +49,7 @@ const Services = () => {
                 style={{ color: "red" }}
               ></i>
             </Card.Title>
-            <Card.Text style={{ minHeight: "300" }}></Card.Text>
+            <Card.Text style={{}}></Card.Text>
           </Card.Body>
         </Card>
 
@@ -60,13 +60,14 @@ const Services = () => {
             src={require("../../assets/snow-removal.jpg")}
           />
           <Card.Body>
-            <Card.Title className="title">
+            <Card.Title>
               Snow Removal{" "}
               <i class="far fa-snowflake" style={{ color: "#A5F2F3" }}></i>
             </Card.Title>
             <Card.Text></Card.Text>
           </Card.Body>
         </Card>
+
         <Card className="menu-item" style={{}}>
           <Card.Img
             className="background-image"
