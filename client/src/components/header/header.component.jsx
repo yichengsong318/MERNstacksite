@@ -12,7 +12,7 @@ export default class Header extends Component {
           <Navbar.Brand href="/home">
             <div style={{}}>
               {" "}
-              <img src={logo} className="logo-home" />
+              <img src={logo} className="logo-home" alt="nflanscaping logo" />
             </div>
           </Navbar.Brand>
 
