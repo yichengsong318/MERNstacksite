@@ -47,7 +47,7 @@ import Spinner from "../../components/common/spinner/spinner.component";
 import "./gallery-page.styles.scss";
 
 const GalleryPage = () => (
-  <div>
+  <div style={{}}>
     <Fade left>
       <p className="ba-title">Before & After</p>
     </Fade>
