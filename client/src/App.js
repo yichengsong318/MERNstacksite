@@ -9,6 +9,9 @@ import DashboardPage from "./pages/dashboard-page/dashboard-page.component";
 import HomePage from "./pages/home-page/home-page.component";
 import GalleryPage from "./pages/gallery-page/gallery-page.component";
 import ContactPage from "./pages/contact-page/contact-page.component";
+import GalleryHomeImprovementPage from "./pages/gallery-home-improvement-page/galler-home-improvement.component";
+import GalleryPmPage from "./pages/gallery-home-improvement-page/galler-home-improvement.component";
+import GalleryLandscapingPage from "./pages/gallery-landscaping-page/gallery-landscaping-page.component";
 
 import ServicesPage from "./pages/services-page/services-page.component";
 import Header from "./components/header/header.component";
@@ -28,6 +31,21 @@ function App() {
         <Route exact path="/contact" component={ContactPage} />
         <Route exact path="/about" component={AboutPage} />
         <Route exact path="/gallery" component={GalleryPage} />
+        <Route
+          exact
+          path="/gallery/home-improvement"
+          component={GalleryHomeImprovementPage}
+        />
+        <Route
+          exact
+          path="/gallery/landscaping"
+          component={GalleryLandscapingPage}
+        />
+        <Route
+          exact
+          path="/gallery/property-management"
+          component={GalleryPmPage}
+        />
         <Route exact path="/login" component={LoginPage} />
         {/* <Route exact path="/register" component={RegisterPage} /> */}
       </Switch>
