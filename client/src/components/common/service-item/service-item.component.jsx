@@ -1,6 +1,6 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
-import "./menu-item.styles.scss";
+import "./service-item.styles.scss";
 
 const ServiceItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
   <div
@@ -15,7 +15,7 @@ const ServiceItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
     />
     <div className="content">
       <h1 className="title">{title}</h1>
-      <span className="subtitle">SHOP NOW</span>
+      <span className="subtitle">View Now</span>
     </div>
   </div>
 );

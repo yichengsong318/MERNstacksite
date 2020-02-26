@@ -43,6 +43,7 @@ import pic33 from "../../assets/gallery/gallery34.jpeg";
 import Fade from "react-reveal/Fade";
 import LazyLoad from "react-lazyload";
 import Spinner from "../../components/common/spinner/spinner.component";
+import ServiceDirectory from "../../components/service-directory/service-directory.component";
 
 import "./gallery-page.styles.scss";
 
@@ -51,6 +52,7 @@ const GalleryPage = () => (
     <Fade left>
       <p className="ba-title">Before & After</p>
     </Fade>
+    <ServiceDirectory />
 
     <div style={{ paddingBottom: 1000 }}></div>
     <div className="ba-container">
