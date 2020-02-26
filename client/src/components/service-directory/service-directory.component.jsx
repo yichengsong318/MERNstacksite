@@ -11,25 +11,25 @@ class ServiceDirectory extends Component {
         {
           title: "Landscaping",
           imageUrl:
-            "https://www.kangol.com/media/wysiwyg/kangol/homepage/blocks/ss19/SS19_MOBILE_MEN.jpg",
+            "https://www.wanderglobe.org/wp-content/uploads/2018/07/Landscaping.jpg",
           id: 1,
           linkUrl: "/landscaping"
+        },
+        {
+          title: "Home Improvement",
+          imageUrl:
+            "https://www.build-review.com/wp-content/uploads/2019/12/Home-Renovation.jpg",
+
+          id: 5,
+          linkUrl: "/home-improvement"
         },
 
         {
           title: "Property Management",
-          imageUrl: "https://i.redd.it/kxfcoubfc2gz.jpg",
+          imageUrl:
+            "https://byejunk.com/wp-content/uploads/2018/12/yard-waste-004.jpg",
           id: 3,
           linkUrl: "/property-management"
-        },
-
-        {
-          title: "Home Improvement",
-          imageUrl:
-            "https://snusercontent.global.ssl.fastly.net/member-profile-full/67/1731567_4923774.jpg",
-
-          id: 5,
-          linkUrl: "/home-improvement"
         }
       ]
     };
