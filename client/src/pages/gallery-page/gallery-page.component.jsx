@@ -3,14 +3,12 @@ import React from "react";
 import pic2 from "../../assets/gallery/gallery1a.JPG";
 import pic3 from "../../assets/gallery/gallery1aa.jpeg";
 import pic4 from "../../assets/gallery/gallery2.JPG";
-import pic5 from "../../assets/gallery/gallery2b.PNG";
+
 import pic6 from "../../assets/gallery/gallery3.JPG";
 import pic7 from "../../assets/gallery/gallery4.JPG";
 import pic8 from "../../assets/gallery/gallery4a.JPG";
 import pic9 from "../../assets/gallery/gallery5.JPG";
 
-import pic10 from "../../assets/gallery/gallery6.JPG";
-import pic11 from "../../assets/gallery/gallery6a.JPG";
 import pic12 from "../../assets/gallery/gallery6aa.JPG";
 import pic13 from "../../assets/gallery/gallery7.JPG";
 import pic14 from "../../assets/gallery/gallery8.JPG";
@@ -65,9 +63,7 @@ const GalleryPage = () => (
       <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
         <img src={pic4} className="ba-pics" alt="gallery pic" />
       </LazyLoad>
-      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-        <img src={pic5} className="ba-pics" alt="gallery pic" />
-      </LazyLoad>
+
       <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
         <img src={pic6} className="ba-pics" alt="gallery pic" />
       </LazyLoad>
@@ -81,12 +77,6 @@ const GalleryPage = () => (
         <img src={pic9} className="ba-pics" alt="gallery pic" />
       </LazyLoad>
 
-      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-        <img src={pic10} className="ba-pics" alt="gallery pic" />
-      </LazyLoad>
-      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-        <img src={pic11} className="ba-pics" alt="gallery pic" />
-      </LazyLoad>
       <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
         <img src={pic12} className="ba-pics" alt="gallery pic" />
       </LazyLoad>
