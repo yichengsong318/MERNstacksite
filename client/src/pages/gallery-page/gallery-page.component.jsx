@@ -51,6 +51,8 @@ const GalleryPage = () => (
     <Fade left>
       <p className="ba-title">Before & After</p>
     </Fade>
+
+    <div style={{ paddingBottom: 1000 }}></div>
     <div className="ba-container">
       <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
         <img src={pic1} className="ba-pics" alt="gallery pic" />
