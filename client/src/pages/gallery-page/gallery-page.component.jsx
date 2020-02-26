@@ -1,5 +1,5 @@
 import React from "react";
-import pic1 from "../../assets/gallery/gallery1.jpeg";
+
 import pic2 from "../../assets/gallery/gallery1a.JPG";
 import pic3 from "../../assets/gallery/gallery1aa.jpeg";
 import pic4 from "../../assets/gallery/gallery2.JPG";
@@ -56,9 +56,6 @@ const GalleryPage = () => (
 
     <div style={{ paddingBottom: 1000 }}></div>
     <div className="ba-container">
-      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-        <img src={pic1} className="ba-pics" alt="gallery pic" />
-      </LazyLoad>
       <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
         <img src={pic2} className="ba-pics" alt="gallery pic" />
       </LazyLoad>
