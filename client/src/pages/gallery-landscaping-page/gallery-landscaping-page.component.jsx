@@ -36,7 +36,9 @@ import Fade from "react-reveal/Fade";
 const GalleryLandscapingPage = () => {
   return (
     <div>
-      <span className="ba-title">Landscaping / Construction</span>{" "}
+      <Fade left>
+        <span className="ba-title">Landscaping / Construction</span>{" "}
+      </Fade>
       <div className="ba-container">
         {" "}
         <LazyLoad height={200} placeholder={<Spinner />} offset={100}>

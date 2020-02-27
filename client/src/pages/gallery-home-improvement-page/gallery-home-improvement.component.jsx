@@ -16,7 +16,9 @@ import pic6 from "../../assets/gallery/gallery3.JPG";
 const GalleryHomeImprovementPage = () => {
   return (
     <div>
-      <span className="ba-title">Home improvement</span>
+      <Fade left>
+        <span className="ba-title">Home improvement</span>
+      </Fade>
       <div className="ba-container">
         <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
           <img src={pic11} className="ba-pics" alt="gallery pic" />
