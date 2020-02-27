@@ -2,16 +2,15 @@ import React from "react";
 import "./gallery-home-improvement.styles.scss";
 import LazyLoad from "react-lazyload";
 import Spinner from "../../components/common/spinner/spinner.component";
+import Fade from "react-reveal/Fade";
+
 import pic11 from "../../assets/gallery/gallery6a.JPG";
 import pic2 from "../../assets/gallery/gallery1a.JPG";
-import pic3 from "../../assets/gallery/gallery1aa.jpeg";
 import pic4 from "../../assets/gallery/gallery2.JPG";
 import pic7 from "../../assets/gallery/gallery4.JPG";
 import pic8 from "../../assets/gallery/gallery4a.JPG";
 import pic17 from "../../assets/gallery/gallery11.JPG";
 import pic23 from "../../assets/gallery/gallery16.JPG";
-import Fade from "react-reveal/Fade";
-
 import pic6 from "../../assets/gallery/gallery3.JPG";
 
 const GalleryHomeImprovementPage = () => {
