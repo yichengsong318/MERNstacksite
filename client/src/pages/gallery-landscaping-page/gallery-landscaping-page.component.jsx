@@ -2,6 +2,7 @@ import React from "react";
 import "./gallery-landscaping-page.styles.scss";
 import LazyLoad from "react-lazyload";
 import Spinner from "../../components/common/spinner/spinner.component";
+import Fade from "react-reveal/Fade";
 
 import pic3 from "../../assets/gallery/gallery1aa.jpeg";
 import pic9 from "../../assets/gallery/gallery5.JPG";
@@ -16,7 +17,7 @@ import pic21 from "../../assets/gallery/gallery14.JPG";
 
 import pic24 from "../../assets/gallery/gallery17.JPG";
 import pic25 from "../../assets/gallery/gallery18.JPG";
-// import pic26 from "../../assets/gallery/gallery19.JPG";
+
 import pic27 from "../../assets/gallery/gallery20.JPG";
 
 import pic28 from "../../assets/gallery/gallery21.JPG";
@@ -29,7 +30,6 @@ import pic30 from "../../assets/gallery/gallery23.JPG";
 import pic31 from "../../assets/gallery/gallery24.jpeg";
 import pic32 from "../../assets/gallery/gallery25.JPG";
 import pic33 from "../../assets/gallery/gallery34.jpeg";
-import Fade from "react-reveal/Fade";
 
 const GalleryLandscapingPage = () => {
   return (
