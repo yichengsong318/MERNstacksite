@@ -13,7 +13,7 @@ class ServiceDirectory extends Component {
           imageUrl:
             "https://www.wanderglobe.org/wp-content/uploads/2018/07/Landscaping.jpg",
           id: 1,
-          linkUrl: "/landscaping&construction"
+          linkUrl: "landscaping&construction"
         },
         {
           title: "Home Improvement",
@@ -21,7 +21,7 @@ class ServiceDirectory extends Component {
             "https://www.build-review.com/wp-content/uploads/2019/12/Home-Renovation.jpg",
 
           id: 5,
-          linkUrl: "/home-improvement"
+          linkUrl: "home-improvement"
         }
       ]
     };
