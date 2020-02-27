@@ -13,7 +13,7 @@ import pic18 from "../../assets/gallery/gallery11.PNG";
 import pic19 from "../../assets/gallery/gallery12.PNG";
 import pic20 from "../../assets/gallery/gallery13.JPG";
 import pic21 from "../../assets/gallery/gallery14.JPG";
-import pic23 from "../../assets/gallery/gallery16.JPG";
+
 import pic24 from "../../assets/gallery/gallery17.JPG";
 import pic25 from "../../assets/gallery/gallery18.JPG";
 // import pic26 from "../../assets/gallery/gallery19.JPG";
@@ -71,9 +71,6 @@ const GalleryLandscapingPage = () => {
         </LazyLoad>
         <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
           <img src={pic22} className="ba-pics" alt="gallery pic" />
-        </LazyLoad>
-        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-          <img src={pic23} className="ba-pics" alt="gallery pic" />
         </LazyLoad>
         <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
           <img src={pic24} className="ba-pics" alt="gallery pic" />
