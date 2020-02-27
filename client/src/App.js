@@ -9,7 +9,7 @@ import DashboardPage from "./pages/dashboard-page/dashboard-page.component";
 import HomePage from "./pages/home-page/home-page.component";
 import GalleryPage from "./pages/gallery-page/gallery-page.component";
 import ContactPage from "./pages/contact-page/contact-page.component";
-import GalleryHomeImprovementPage from "./pages/gallery-home-improvement-page/galler-home-improvement.component";
+import GalleryHomeImprovementPage from "./pages/gallery-home-improvement-page/gallery-home-improvement.component";
 import GalleryLandscapingPage from "./pages/gallery-landscaping-page/gallery-landscaping-page.component";
 
 import ServicesPage from "./pages/services-page/services-page.component";
