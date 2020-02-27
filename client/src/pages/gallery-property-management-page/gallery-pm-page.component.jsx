@@ -2,6 +2,7 @@ import React from "react";
 import "./gallery-pm-page.styles.scss";
 import LazyLoad from "react-lazyload";
 import Spinner from "../../components/common/spinner/spinner.component";
+import pic3 from "../../assets/gallery/gallery1aa.jpeg";
 
 const GalleryPmPage = () => {
   return (

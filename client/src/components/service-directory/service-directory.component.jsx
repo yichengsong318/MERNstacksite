@@ -9,7 +9,7 @@ class ServiceDirectory extends Component {
     this.state = {
       sections: [
         {
-          title: "Landscaping",
+          title: "Landscaping / Construction",
           imageUrl:
             "https://www.wanderglobe.org/wp-content/uploads/2018/07/Landscaping.jpg",
           id: 1,
@@ -22,14 +22,6 @@ class ServiceDirectory extends Component {
 
           id: 5,
           linkUrl: "/home-improvement"
-        },
-
-        {
-          title: "Property Management",
-          imageUrl:
-            "https://byejunk.com/wp-content/uploads/2018/12/yard-waste-004.jpg",
-          id: 3,
-          linkUrl: "/property-management"
         }
       ]
     };

@@ -57,9 +57,7 @@ const GalleryPage = () => (
       <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
         <img src={pic2} className="ba-pics" alt="gallery pic" />
       </LazyLoad>
-      <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-        <img src={pic3} className="ba-pics" alt="gallery pic" />
-      </LazyLoad>
+
       <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
         <img src={pic4} className="ba-pics" alt="gallery pic" />
       </LazyLoad>
