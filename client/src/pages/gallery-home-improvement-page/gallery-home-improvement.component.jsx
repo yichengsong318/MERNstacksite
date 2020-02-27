@@ -9,13 +9,14 @@ import pic4 from "../../assets/gallery/gallery2.JPG";
 import pic7 from "../../assets/gallery/gallery4.JPG";
 import pic8 from "../../assets/gallery/gallery4a.JPG";
 import pic17 from "../../assets/gallery/gallery11.JPG";
+import Fade from "react-reveal/Fade";
 
 import pic6 from "../../assets/gallery/gallery3.JPG";
 
 const GalleryHomeImprovementPage = () => {
   return (
     <div>
-      <span>Home improvement</span>
+      <span className="ba-title">Home improvement</span>
       <div className="ba-container">
         <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
           <img src={pic11} className="ba-pics" alt="gallery pic" />

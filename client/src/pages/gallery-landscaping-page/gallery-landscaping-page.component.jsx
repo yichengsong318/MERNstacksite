@@ -31,11 +31,12 @@ import pic30 from "../../assets/gallery/gallery23.JPG";
 import pic31 from "../../assets/gallery/gallery24.jpeg";
 import pic32 from "../../assets/gallery/gallery25.JPG";
 import pic33 from "../../assets/gallery/gallery34.jpeg";
+import Fade from "react-reveal/Fade";
 
 const GalleryLandscapingPage = () => {
   return (
     <div>
-      <span>Landscaping</span>{" "}
+      <span className="ba-title">Landscaping / Construction</span>{" "}
       <div className="ba-container">
         {" "}
         <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
