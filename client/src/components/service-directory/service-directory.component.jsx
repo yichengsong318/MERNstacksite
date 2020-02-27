@@ -13,7 +13,7 @@ class ServiceDirectory extends Component {
           imageUrl:
             "https://www.wanderglobe.org/wp-content/uploads/2018/07/Landscaping.jpg",
           id: 1,
-          linkUrl: "/landscaping"
+          linkUrl: "/landscaping&construction"
         },
         {
           title: "Home Improvement",

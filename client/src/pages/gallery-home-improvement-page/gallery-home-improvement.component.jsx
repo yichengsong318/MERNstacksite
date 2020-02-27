@@ -8,6 +8,7 @@ import pic3 from "../../assets/gallery/gallery1aa.jpeg";
 import pic4 from "../../assets/gallery/gallery2.JPG";
 import pic7 from "../../assets/gallery/gallery4.JPG";
 import pic8 from "../../assets/gallery/gallery4a.JPG";
+import pic17 from "../../assets/gallery/gallery11.JPG";
 
 import pic6 from "../../assets/gallery/gallery3.JPG";
 
@@ -35,6 +36,9 @@ const GalleryHomeImprovementPage = () => {
         </LazyLoad>
         <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
           <img src={pic8} className="ba-pics" alt="gallery pic" />
+        </LazyLoad>
+        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+          <img src={pic17} className="ba-pics" alt="gallery pic" />
         </LazyLoad>
       </div>
     </div>
