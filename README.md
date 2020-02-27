@@ -2,6 +2,7 @@
 
 https://www.nflandscaping.com
 
+React front-end / NodeJs back-end
 
 ## Installation
 
@@ -30,4 +31,5 @@ run the front-end and back-end with:
 ```bash
  npm start
 ```
+
 (run in root folder)
