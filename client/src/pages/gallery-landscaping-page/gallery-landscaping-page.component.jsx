@@ -5,6 +5,7 @@ import Spinner from "../../components/common/spinner/spinner.component";
 import pic1 from "../../assets/gallery/gallery1.jpeg";
 import pic5 from "../../assets/gallery/gallery2b.PNG";
 import pic10 from "../../assets/gallery/gallery6.JPG";
+import pic3 from "../../assets/gallery/gallery1aa.jpeg";
 
 const GalleryLandscapingPage = () => {
   return (
@@ -20,6 +21,9 @@ const GalleryLandscapingPage = () => {
         </LazyLoad>
         <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
           <img src={pic10} className="ba-pics" alt="gallery pic" />
+        </LazyLoad>
+        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+          <img src={pic3} className="ba-pics" alt="gallery pic" />
         </LazyLoad>
       </div>
     </div>
