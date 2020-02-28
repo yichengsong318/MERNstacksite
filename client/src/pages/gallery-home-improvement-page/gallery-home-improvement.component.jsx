@@ -21,6 +21,12 @@ const GalleryHomeImprovementPage = () => {
       </Fade>
       <div className="ba-container">
         <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+          <img src={pic6} className="ba-pics" alt="gallery pic" />
+        </LazyLoad>
+        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
+          <img src={pic7} className="ba-pics" alt="gallery pic" />
+        </LazyLoad>
+        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
           <img src={pic11} className="ba-pics" alt="gallery pic" />
         </LazyLoad>
         <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
@@ -31,12 +37,6 @@ const GalleryHomeImprovementPage = () => {
           <img src={pic4} className="ba-pics" alt="gallery pic" />
         </LazyLoad>
 
-        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-          <img src={pic6} className="ba-pics" alt="gallery pic" />
-        </LazyLoad>
-        <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
-          <img src={pic7} className="ba-pics" alt="gallery pic" />
-        </LazyLoad>
         <LazyLoad height={200} placeholder={<Spinner />} offset={100}>
           <img src={pic8} className="ba-pics" alt="gallery pic" />
         </LazyLoad>
