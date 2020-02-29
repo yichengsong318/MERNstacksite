@@ -11,7 +11,7 @@ class ServiceDirectory extends Component {
         {
           title: "Landscaping / Construction",
           imageUrl:
-            "https://www.wanderglobe.org/wp-content/uploads/2018/07/Landscaping.jpg",
+            "https://www.apeaceofmindlandscape.com/files/Landscaping-1.jpg",
           id: 1,
           linkUrl: "landscaping&construction"
         },
